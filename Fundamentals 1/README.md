@@ -8,7 +8,7 @@
 
 Try to finish the following tasks. Make sure to checkout the hints section.
 
-**Download the initial code** from this link: [javascript-numbers.zip](/wp-content/uploads/javascript-numbers.zip).
+**Download the initial code** from [this link](javascript-numbers.html).
 
 **IMPORTANT:** Make sure to zip (compress) the HTML file before submitting your assignment. The zip file **must also contain a web page named `javascript-numbers-practice.html`** with the code you created from the `Practice!` section above.
 
