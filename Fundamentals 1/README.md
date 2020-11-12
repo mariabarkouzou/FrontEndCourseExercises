@@ -1,6 +1,6 @@
 # WEB 101: JAVASCRIPT FUNDAMENTALS 1
 
-[**Instructions**](../FrontEndCourseExercises#instructions)
+[**Instructions**](/#instructions)
 
 ### [Assignment](#assignment)
 
