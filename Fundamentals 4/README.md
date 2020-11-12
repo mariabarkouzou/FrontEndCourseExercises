@@ -1,3 +1,5 @@
+![](README.jpg)
+
 These are a series of javascript exercises intended to be used alongside the Social Hackers Academy curriculum. 
 
 ## HOW TO USE THESE EXERCISES
@@ -8,7 +10,7 @@ Before you start you should have a few things installed on your machine:
 
 2. Jasmine.  Jasmine is a testing framework for Javascript.  Type `jasmine -v` or `jasmine --version` to check for it.  If you need to install it, type `npm install -g jasmine` or `npm i -g jasmine` to do so.
 
-3. Clone this repo (git clone [URL]) and get started.
+3. Fork and clone this repo (git clone [URL]) and get started.
 
 Each exercise includes 3 files, a markdown file with a description of the task, an empty (or mostly empty) javascript file, and a set of tests.  
 
@@ -23,3 +25,9 @@ The first exercise, `helloWorld` will walk you through the process in more depth
 ## SUBMITTING YOUR EXERCISES
 
 Unless instructed otherwise, you should fork this repository, add your instructor(s) as collaborator(s) go through each exercise, commit and push the solutions and then submit the URL of the repository.
+
+## CONTRIBUTORS
+
+- [Patrick Chan](https://github.com/pchan2/)
+- Photo by `Startup Stock Photos` from `Pexels`
+

@@ -1,4 +1,7 @@
-# FrontEndCourseExercises
+![](FE.jpg)
+
+# Front End Course Exercises
+
 Exercises for the Frontend Web Development Course
 
 ### INSTRUCTIONS
@@ -15,3 +18,7 @@ Exercises for the Frontend Web Development Course
 - [Fundamentals 3](/Fundamentals%203)
 - [Fundamentals 4](/Fundamentals%204)
 - [Fundamentals 5](/Fundamentals%205)
+
+---
+
+_Image by Kelly Sikkema on Unsplash_
