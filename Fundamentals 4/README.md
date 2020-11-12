@@ -1,6 +1,24 @@
 ![](README.jpg)
 
+# WEB 101: JAVASCRIPT FUNDAMENTALS 4
+
+[**Submission Instructions (Ctrl+Click to open in a new Tab)**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
+
 These are a series of javascript exercises intended to be used alongside the Social Hackers Academy curriculum. 
+
+## INSTRUCTIONS 
+
+Complete the exercises found in this repository:
+
+- helloWorld
+- repeatString
+- reverseString
+- removeFromArray
+- sumAll
+- leapYears
+- tempConversion
+
+> Here's a [video screencast](https://www.youtube.com/watch?v=01glv9nr200) to help you through the first steps.
 
 ## HOW TO USE THESE EXERCISES
 
@@ -21,10 +39,6 @@ Upon first running the tests you will find that the tests fail: this is by desig
 **IMPORTANT**: Some of the exercises have test conditions defined in the spec file that are defined as 'xit' compared to 'it'. This is purposeful, and as you test your solution against the first 'it', on success you will change the next 'xit' to an 'it' and test your code again, until all conditions are satisfied.
 
 The first exercise, `helloWorld` will walk you through the process in more depth.
-
-## SUBMITTING YOUR EXERCISES
-
-Unless instructed otherwise, you should fork this repository, add your instructor(s) as collaborator(s) go through each exercise, commit and push the solutions and then submit the URL of the repository.
 
 ## CONTRIBUTORS
 
