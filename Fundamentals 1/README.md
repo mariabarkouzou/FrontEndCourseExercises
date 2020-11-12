@@ -1,3 +1,5 @@
+![](README.jpg)
+
 # WEB 101: JAVASCRIPT FUNDAMENTALS 1
 
 [**Instructions**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
@@ -56,3 +58,7 @@ You can also assign the result of the above command to a variable, and access th
 const currentYear = new Date().getFullYear();
 document.write( currentYear );
 ```
+
+---
+
+_Photo by Volkan Olmez on Unsplash_
