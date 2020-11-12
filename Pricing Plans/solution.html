@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power-ups!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3,
+        strong,
+        button {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        h1 {
+            text-align: center;
+            font-weight: lighter;
+        }
+        
+        .pricing_plans {
+            display: flex;
+            width: 890px;
+            margin: 0 auto;
+        }
+        
+        .pricing_plans article {
+            background-color: #f9f9f9;
+            border: 3px solid #ececec;
+            margin: 10px;
+            padding: 20px 0 40px 0;
+            flex-basis: 33%;
+            transition: all 600ms ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .pricing_plans article:hover {
+            box-shadow: 0 20px 32px rgba(0, 0, 0, 0.15);
+        }
+        
+        .pricing_plans article img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .pricing_plans article h2,
+        .pricing_plans article h3 {
+            text-align: center;
+        }
+        
+        .pricing_plans article h2 {
+            font-size: 1.1rem;
+            color: #444;
+        }
+        
+        .pricing_plans article h3 {
+            font-weight: bold;
+            font-size: 2.2rem;
+            margin: 0;
+        }
+        
+        .pricing_plans article h3 span {
+            font-size: 1.3rem;
+        }
+        
+        .pricing_plans article p {
+            color: #9c9c9c;
+            padding: 15px 25px 25px 25px;
+            font-size: 0.9rem;
+            line-height: 1.5rem;
+            margin: 0;
+        }
+        
+        .pricing_plans button {
+            background-color: transparent;
+            padding: 18px 40px;
+            letter-spacing: 0.15rem;
+            ;
+            border: 2px solid #bfbfbf;
+            color: #9f9f9f;
+            font-weight: bold;
+            border-radius: 32px;
+            display: block;
+            width: calc( 100% - 50px);
+            margin: 0 25px;
+        }
+        
+        @media (max-width: 900px) {
+            .pricing_plans {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .pricing_plans article {
+                flex-basis: 50%;
+            }
+        }
+        
+        footer {
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin: 20px 10px 0 10px;
+        }
+        
+        footer a {
+            color: #7c9343;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Consider These Power-Ups!</h1>
+    <section class="pricing_plans">
+        <article class="item">
+            <img src="./images/Site-Shield-Standard.jpg" alt="">
+            <h2>SITE SHIELD STANDARD</h2>
+            <h3>$59.00<span>/mo</span></h3>
+            <p>We'll provide your WordPress site with virus/malware protection, daily backups, updates, maintenance, and customization, then send you a monthly report. Let us manage your site, so you don't have to. It's like insurance - for your website.</p>
+            <button>ADD TO CART</button>
+        </article>
+        <article class="item">
+            <img src="./images/Builder-Widgets-Pro.jpg" alt="">
+            <h2>BUILDER WIDGETS PRO</h2>
+            <p>The Organic solution to complicated page builders! Organic Builder Widgets uses 16 premium widgets and the native customizer interface to build dynamic pages. It's simple, fast and beautifully designed.</p>
+            <form>
+                <p>
+                    <input type="radio" checked name="" id="single">
+                    <label for="single">Single Site License - <strong>$39.00</strong></strong></label>
+                    <br>
+                    <input type="radio" checked name="" id="single">
+                    <label for="single">5 Site License - <strong>$99.00</strong></strong></label>
+                </p>
+            </form>
+            <button>ADD TO CART</button>
+        </article>
+        <article class="item">
+            <img src="./images/Theme-Setup-Service.jpg" alt="">
+            <h2>THEME SETUP SERVICE</h2>
+            <h3>$299.00</h3>
+            <p>We will install WordPress, your new Organic Theme, essential plugins and demo content. In addition, we will setup the theme options, spam protection, add your logo and a custom background - saving you potentially hours of work!</p>
+            <button>ADD TO CART</button>
+        </article>
+    </section>
+</body>
+
+</html>
