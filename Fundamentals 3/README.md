@@ -1,6 +1,6 @@
 ![](README.jpg)
 
-# WEB 101: JAVASCRIPT FUNDAMENTALS 1
+# WEB 101: JAVASCRIPT FUNDAMENTALS 3
 
 [**Submission Instructions (Ctrl+Click to open in a new Tab)**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
 
@@ -19,7 +19,6 @@ For now, just write each function and test the output with `console.log`.
 4. Write a function called `lastLetter` that takes a string and returns the very last letter of that string __[*]__:
    1. `lastLetter("abcd")` should return `"d"`
 
-[*] _Go through the [**Strings** section of **Fundamentals 2**](https://athena.socialhackersacademy.org/topic/fundamentals-part-2/#strings) again in order to remind yourself the methods for manipulating text_
 
 **Copy and paste the code below**, inside a `script` tag in your HTML page, and try to complete the exercise by filling the body of the functions. On each of the first 4 functions, you must also write the answer to the question **What type of functions is the next one?**. Try to go through the theory again and answer with one of the following terms: `Function Declaration` / `Function Expression` / `Arrow Function`.
 
@@ -44,6 +43,9 @@ function lastLetter(){
   // Your code goes here...
 }
 ```
+
+Add the code in a new branch, in a new file named `fundamentals-3-quiz.html` and submit your Pull Request.
+
 ---
 
 _Photo by Miguel Á. Padriñán from Pexels_
