@@ -4,9 +4,7 @@
 
 [**Submission Instructions (Ctrl+Click to open in a new Tab)**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
 
-### [Assignment](#assignment)
-
-#### Specifications
+#### INSTRUCTIONS
 
 Try to finish the following tasks. Make sure to checkout the hints section.
 
