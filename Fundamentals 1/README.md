@@ -1,9 +1,6 @@
 # WEB 101: JAVASCRIPT FUNDAMENTALS 1
 
-### [Instructions](#instructions)
-
-- If you haven't done it already, fork this repository
-- Create a new branch for each exercise and create a Pull Request. Make sure to assign your instructor(s) and ask for a review
+[**Instructions**](../FrontEndCourseExercises#instructions)
 
 ### [Assignment](#assignment)
 
