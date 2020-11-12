@@ -2,7 +2,7 @@
 
 # WEB 101: JAVASCRIPT FUNDAMENTALS 1
 
-[**Instructions**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
+[**Submission Instructions (Ctrl+Click to open in a new Tab)**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
 
 ### [Assignment](#assignment)
 
