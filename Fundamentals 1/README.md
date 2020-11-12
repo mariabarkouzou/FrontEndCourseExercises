@@ -1,6 +1,6 @@
 # WEB 101: JAVASCRIPT FUNDAMENTALS 1
 
-[**Instructions**](/#instructions)
+[**Instructions**](https://github.com/SocialHackersAcademy/FrontEndCourseExercises/#instructions)
 
 ### [Assignment](#assignment)
 
