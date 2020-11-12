@@ -5,4 +5,4 @@ Exercises for the Frontend Web Development Course
 
 ### JAVASCRIPT BASICS
 
-- [Fundamentals 1](/Fundamentals 1/)
+- [Fundamentals 1](/Fundamentals 1)
