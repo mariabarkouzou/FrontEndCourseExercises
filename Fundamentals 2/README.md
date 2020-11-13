@@ -8,7 +8,7 @@
 
 1) Create a web page (`data-types.html`) and use the `table` element and its siblings (`td`,`tr`, etc.) to display the basic JavaScript Data types along with a small description and a reference link to whatever source you might find helpful. 
 
-Decorate your page with some drawings or images from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) or [Undraw](https://undraw.co/). Add a short description about the concepts involved (**in your own words. No copy-paste!**). If you feel happy with the result, upload it on GitHub and make sure it's [available online](https://www.youtube.com/watch?v=8hrJ4oN1u_8).
+Decorate your page with some drawings or images from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) or [Undraw](https://undraw.co/). Add a short description about the concepts involved (**in your own words. No copy-paste!**).
 
 Make sure your HTML and CSS code is validated through the **W3C** validation services and does not contain any errors or warnings:
 
@@ -36,4 +36,5 @@ Initial code:
 
 ---
 
--Photo by Max Duzij on Unsplash-
+- Thanks to [Kiuri Negrao](https://github.com/Mulungo/) for contributing
+- Photo by Max Duzij on Unsplash-
