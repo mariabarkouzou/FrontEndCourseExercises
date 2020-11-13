@@ -2,7 +2,7 @@
 
 # Front End Course Exercises
 
-Exercises for the Frontend Web Development Course
+Exercises for the Frontend Web Development Course. Each exercise must be completed when instructed to do so by your instructor(s) or by the material.
 
 ### INSTRUCTIONS
 
@@ -22,6 +22,11 @@ The URL should look like this: `https://github.com/kostasx/FrontEndCourseExercis
 - [Fundamentals 3](/Fundamentals%203)
 - [Fundamentals 4](/Fundamentals%204)
 - [Fundamentals 5](/Fundamentals%205)
+
+### FAQ
+
+- Question: _In the Repo we only do the exercises it tells us to and ignore the other exercises inside, correct? For example I am doing JS Fundamentals 2, I should ignore the CSS Grid one_
+  - Answer: **Yes, that's correct. You will have to work on the exercise(s) you are instructed to on each lesson.**
 
 ---
 
