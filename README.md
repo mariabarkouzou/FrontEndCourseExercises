@@ -23,6 +23,8 @@ The URL should look like this: `https://github.com/kostasx/FrontEndCourseExercis
 - [Fundamentals 4](/Fundamentals%204)
 - [Fundamentals 5](/Fundamentals%205)
 
+- [Working with Arrays and the DOM (Guest Lecture with Paulin de Naurois)](/Working%20with%20Arrays%20and%20the%20DOM)
+
 ---
 
 _Image by Kelly Sikkema on Unsplash_
