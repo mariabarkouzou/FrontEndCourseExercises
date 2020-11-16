@@ -13,6 +13,8 @@ The URL should look like this: `https://github.com/kostasx/FrontEndCourseExercis
 
 - If you get stuck, don't hesitate to ask for help.
 
+You can check out this [video](https://www.youtube.com/watch?v=UGmEE-UDgWI) that walks you through the process of forking the exercises repo, working on a branch and doing a PR.
+
 ## WEB DEVELOPMENT 101
 
 ### JAVASCRIPT BASICS
