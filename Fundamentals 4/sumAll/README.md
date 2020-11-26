@@ -17,8 +17,8 @@ Think about how you would do this on pen and paper and then how you might transl
 
 ## FAQ
 
-> Q: _Is the input supposed to be an array ([ 1,4 ]) or just numbers ( 1,4 )?_
-> A: It's just 2 numbers ( 1,4 ).
+- Q: _Is the input supposed to be an array ([ 1,4 ]) or just numbers ( 1,4 )?_
+  - A: It's just 2 numbers ( 1,4 ).
 
 ___
 
