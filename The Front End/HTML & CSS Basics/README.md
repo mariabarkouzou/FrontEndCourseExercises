@@ -20,9 +20,9 @@ Here are your assignments for this lesson:
 **3)** Create a table that contains information about the the `world's biggest polluters`. You should get the information from [this site](https://gulfnews.com/photos/news/who-are-the-worlds-biggest-polluters-1.1572250802844?slide=1).
   - The table must include information about each `country`, the `metric tons per year` that it produces and a reference to the [source](http://www.globalcarbonatlas.org/en/CO2-emissions).
 
-**4)** Create a registration form according to this [screenshot](/ASSETS/exercise-html-form-creation.jpg).
+**4)** Create a registration form according to this [screenshot](./ASSETS/exercise-html-form-creation.jpg).
 
-[![form creation exercise](/ASSETS/exercise-html-form-creation.jpg)](/ASSETS/exercise-html-form-creation.jpg)
+[![form creation exercise](/ASSETS/exercise-html-form-creation.jpg)](./ASSETS/exercise-html-form-creation.jpg)
 
 **5)** Create a search engine form that sends the request to bing.
   - The search URL you'll use is the following: [https://www.bing.com/search?q=ferrari](https://www.bing.com/search?q=ferrari)
