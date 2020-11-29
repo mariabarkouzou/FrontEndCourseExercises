@@ -22,7 +22,7 @@ Here are your assignments for this lesson:
 
 **4)** Create a registration form according to this [screenshot](./ASSETS/exercise-html-form-creation.jpg).
 
-[![form creation exercise](/ASSETS/exercise-html-form-creation.jpg)](./ASSETS/exercise-html-form-creation.jpg)
+[![form creation exercise](./ASSETS/exercise-html-form-creation.jpg)](./ASSETS/exercise-html-form-creation.jpg)
 
 **5)** Create a search engine form that sends the request to bing.
   - The search URL you'll use is the following: [https://www.bing.com/search?q=ferrari](https://www.bing.com/search?q=ferrari)
