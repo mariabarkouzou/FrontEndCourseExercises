@@ -11,7 +11,7 @@ Exercises for the Frontend Web Development Course. Each exercise must be complet
 - **Sync your forked repo with the original repo (IMPORTANT)** in order to pull from the original repo whenever it gets updated. Here are the steps:
 
 ```bash
-git remote add upstream https://github.com/SocialHackersAcademy/FrontEndCourseExercises/
+git remote add upstream https://github.com/SocialHackersAcademy/FrontEndCourseExercises/  (Run this just once)
 
 git fetch upstream
 
