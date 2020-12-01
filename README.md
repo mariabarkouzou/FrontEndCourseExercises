@@ -8,6 +8,18 @@ Exercises for the Frontend Web Development Course. Each exercise must be complet
 
 - If you haven't done it already, fork this repository and add your instructor(s) as collaborator(s) to your forked repository.
 
+- **Sync your forked repo with the original repo (IMPORTANT)** in order to pull from the original repo whenever it gets updated. Here are the steps:
+
+```bash
+git remote add upstream https://github.com/SocialHackersAcademy/FrontEndCourseExercises/  (Run this just once)
+
+git fetch upstream
+
+git checkout main
+
+git merge upstream/main
+```
+
 - Create a new branch for each exercise and create a Pull Request back to your main branch **on your own repository**. Make sure to assign your instructor(s) and ask for a review on the Pull Request. Submit the Pull Request URL to the Quiz.
 The URL should look like this: `https://github.com/kostasx/FrontEndCourseExercises/pull/1` where `kostasx` will be your GitHub username.
 
