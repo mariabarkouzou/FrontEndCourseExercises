@@ -1,0 +1,1 @@
+The link to my website for exercise 2 - https://ilovepreveza.netlify.app/
