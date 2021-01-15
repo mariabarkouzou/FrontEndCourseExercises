@@ -1,0 +1,104 @@
+body {  background-image: url("../images/laptop.jpg"); 
+} 
+
+.main > div {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 500px;
+}
+
+.two{
+    .register {
+       border: none; 
+        
+        h3 {
+          border-bottom-color: #f7f1f1;
+        }
+    
+        .sep{
+          border-color: #f8f6f6;
+        }
+    }
+}
+
+.register {
+  	width: 600px;
+  	margin: 10px auto;
+  	padding: 10px;
+  	border: 7px solid $green-border;
+  	border-radius: 10px;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+  	background-color: #696969;
+    box-shadow: 0 0 20px 0 #000000; 
+
+}
+      
+  	
+  h2 {
+	  	margin: 0 15px 20px;
+	  	border-bottom: 2px solid $green-border;
+	  	padding: 5px 10px 5px 0;
+	  	
+	}
+
+	div{
+		margin: 0 0 15px 0;
+	  	border : none;
+	}
+
+	label {
+	  	display: inline-block;
+	  	width: 25%;
+	  	text-align: right;
+        margin: 15px
+          
+	}
+
+	input[type=text], input[type=password]{
+  		width: 50%; 
+  		font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+  		padding: 5px;
+  		font-size: 0.9em;
+  		border-radius: 5px;
+  		background: rgba(247, 245, 245, 0.911);
+	}
+  
+  input[type=text]:focus, input[type=password]:focus{
+		background: #FFFFFF;
+	}
+
+	
+    
+     .footer{ 
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: #23282e;
+       color: white;
+       text-align: center;
+       font-family:tahoma;
+}
+#container {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 73px;
+  }
+  
+  button {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 5px solid#f08080 ;
+    
+  }
+  h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#23282e;
+  }
