@@ -1,0 +1,42 @@
+body{
+    background-image:url('https://wallpaperaccess.com/full/1166688.jpg');
+}
+
+.search {
+
+    font-size:large;
+    width: 700px;
+    margin-top: 250px;
+    margin-left:380px ;
+    height: 50px;
+}
+
+.submit{
+    font-size:larger;
+    height: 55px;
+    width: 110px;
+    background-color: rgb(43, 5, 78);
+    color: rgb(242, 245, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: burlywood;
+    margin-top: 250px ;
+    position: relative;  bottom:-2px;
+}
+
+.footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #060708;
+    color: white;
+    text-align: center;
+    font-family:tahoma;
+}
+
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(89, 97, 22);
+font-style: italic;
+font: larger;
+}
