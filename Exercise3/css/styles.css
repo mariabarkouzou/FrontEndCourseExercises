@@ -1,0 +1,57 @@
+body{
+background-image: url("../images/2.jpg");
+}
+
+.footer{ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #23282e;
+    color: white;
+    text-align: center;
+    font-family:tahoma;
+}
+table, th, td {
+    border: 0.5px solid rgb(66, 7, 47);
+    padding:1px;
+  }
+
+  table {
+    width: 40%;
+    background-color: #fcf6fb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(61, 7, 54);
+    position: relative; left:500px; top:30px;
+    text-align: center;
+  }
+  
+  a{
+      color:rgb(61, 7, 54);
+      text-decoration: none;
+      
+  }
+  h1{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bolder;
+      color: rgb(63, 58, 62);
+      text-align: center;
+  }
+  th{
+      font-size: larger;
+      color:rgb(247, 240, 240);
+      background-color: darkslategray;
+      padding:20px;
+  }
+  tr:hover td {
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+  }
+   tr:hover a{
+color:white;
+   }
+   td{
+       padding:10px;
+      
+   }
