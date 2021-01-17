@@ -1,0 +1,124 @@
+body, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+
+.footer{
+
+    position: fixed;
+    left: 0;
+    background-color: #fff;
+    color: rgb(58, 54, 54);
+    bottom: 0;
+    font-size: 13pt;
+    width: 100%;
+}
+
+.icon1 {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 22px;
+    width: 22px;
+    text-decoration: none;
+    background-image: url("../images/menu1.png");   
+}
+    
+.topnav{
+
+    overflow:hidden;
+    width:25%;
+    left:1330px;
+    position:fixed;
+    bottom: 710px;   
+}
+   
+.topnav a {
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color:black;
+    padding-left:8px;
+    padding-right:8px;
+    
+ }
+
+
+.enter{
+    background-color:#4285f4;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color:white;
+    outline: none;
+    height:30px;
+    width:75px;
+}
+
+#images:hover {
+    text-decoration:underline;   
+  } 
+
+  #gmail:hover{
+    text-decoration:underline;  
+  }
+
+.icon1:hover{
+    background-image: url("../images/menu.png");
+}
+
+.googlelogo{
+    position: absolute;
+    left: 670px;
+    bottom: 505px;
+       
+    }
+   
+    .bar{
+        margin:0 auto;
+        width:575px;
+        border-radius:30px;
+        border:1px solid #dcdcdc;
+        
+      }
+
+      .searchbar{
+        height:45px;
+        border:none;
+        width:500px;
+        font-size:16px;
+        outline: none;
+       
+      }
+      .voice{
+        height:20px;
+        position:relative;
+        top:5px;
+        left:10px;
+      }
+
+      .buttons{
+        margin-top:30px;
+        
+      }
+
+      .button{
+        background-color: #ffff;
+        border:none;
+        color:rgb(85, 82, 82);
+        font-size:15px;
+        padding: 10px 20px;
+        margin:5px;
+        border-radius:4px;
+        outline:none;
+      }
+
+      .button:hover{
+        border: 1px solid #c8c8c8;
+        padding: 9px 19px;
+        color:rgb(85, 82, 82);
+      }
+
+    
