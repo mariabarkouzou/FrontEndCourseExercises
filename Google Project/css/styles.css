@@ -34,7 +34,7 @@ display: flex;
 
   overflow:hidden;
   width:25%;
-  left:1330px;
+  left:1340px;
   position:fixed;
   bottom: 710px;   
 }
@@ -58,7 +58,7 @@ display: flex;
   color:white;
   outline: none;
   height:30px;
-  width:75px;
+  width:80px;
 }
 
 #images:hover {
@@ -73,48 +73,44 @@ display: flex;
   background-image: url("../images/menu.png");
 }
 
-.googlelogo{
-  
-  
-  }
  
 .bar{
     
     width:575px;
     border-radius:30px;
     border:1px solid #dcdcdc;
-      
+    margin:auto;
     }
 
-.searchbar{
+ .search-bar{
     height:45px;
     border:none;
-    width:500px;
+    width:440px;
     font-size:16px;
-    outline: none;  
+    outline: none; 
+    
     }
 
 .voice{
     height:20px;
-    position:relative;
-    top:5px;
-    left:10px;
+    position:relative; top:5px; left:5px;
     }
 
 .buttons{
     margin-top:30px;
-      
+     
     }
 
 .button{
     background-color: #ffff;
     border:none;
     color:rgb(85, 82, 82);
-    font-size:15px;
+    font-size:14px;
     padding: 10px 20px;
     margin:5px;
     border-radius:4px;
     outline:none;
+    
     }
 
 .button:hover{
@@ -124,7 +120,33 @@ display: flex;
     }
 
 section{
-     background: coral;
+
      width:50%;
      margin:auto;  
+     text-align:center;
+     position:relative; top:130px;
   }
+
+.googlelogo{
+    padding:10px;
+  }
+
+  .keyboard{
+    height:22px;
+    position:relative; top:7px; right:15px;
+    width:22px;
+    }
+
+#searchicon{
+  height:21px;
+  position:relative; right:470px; top:5px;
+  width:21px;
+
+}
+
+a{
+
+  text-decoration: none;
+  color:rgb(66, 63, 63);
+}
+
