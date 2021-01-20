@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Google Search">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" type="image/gif/png" href="./images/google.png">
+    <link rel="icon" type="image/png" href="./images/google.png">
     <title>Google</title>
 </head>
 
@@ -15,7 +16,9 @@
             <a href="https://mail.google.com/mail/?tab=wm&ogbl" id="gmail">Gmail</a>
             <a href="https://www.google.gr/imghp?hl=el&tab=wi&ogbl" id="images">Εικόνες</a>
             <a class="icon1" href="https://www.google.gr/intl/el/about/products?tab=wh"  title="Εφαρμογές google" aria-expanded="false" role="button" tabindex="0"></a>
-            <a href="https://accounts.google.com/ServiceLogin?hl=el&passive=true&continue=https://www.google.com/&ec=GAZAAQ"><button type="button" class="enter">Είσοδος</button></a>
+            <form action="https://accounts.google.com/ServiceLogin?hl=el&passive=true&continue=https://www.google.com/&ec=GAZAAQ" method="GET" id="enter">
+            <button>Είσοδος</button>
+            </form>
         </div>
 
             <section>
@@ -25,17 +28,28 @@
             <div class="bar">
                
                 <form action="https://www.google.com/search?q=ferrari" method="GET"> 
-                <input type="text" name="q" class="search-bar" aria-labelledby="search">
+                <label id="search-bar" for="search">  
+                <input id="search" aria-labelledby="search-bar" type="text" name="q" class="search-bar">
                 <img src="images/search.jpg" id="searchicon" alt="searchicon">
-                <a href="#"><img class="keyboard" src="./images/keyboard1.png" aria-label="Εργαλεία εισαγωγής" title="Εργαλεία Εισαγωγής"></a>
-                <a href="#"><img class="voice" src="./images/mic.png" aria-label="Φωνητική Αναζήτηση" title="Φωνητική Αναζήτηση"></a>
+                <a href="#"><img class="keyboard" src="./images/keyboard1.png" alt="keyboard" aria-label="Εργαλεία εισαγωγής" title="Εργαλεία Εισαγωγής"></a>
+                <a href="#"><img class="voice" src="./images/mic.png" alt="microhone" aria-label="Φωνητική Αναζήτηση" title="Φωνητική Αναζήτηση"></a>
                 </form>
             </div>
 
             <div class="buttons">
-                <button class="button" type="button"><a href="https://www.google.com/search?">Αναζήτηση Google</a></button>
-                <button class="button" type="button"><a href="https://www.google.com/doodles/">Αισθάνομαι τυχερός</a></button>
+                <form style="display: inline" action="https://www.google.com/search?" method="get" id="searchgoogle">
+                    <button>Αναζήτηση Google</button>
+                  </form>
+                  <form style="display: inline" action="https://www.google.com/doodles/" method="get" id="feelinglucky">
+                    <button>Αισθάνομαι τυχερός</button>
+                  </form>
             </div>
+
+            <div class="eng">
+               Το Google προσφέρεται σε:
+               <a href="https://www.google.com/setprefs?sig=0_xJNAomyHvTbPOn5SQ9ZGn229jeE%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwj3vdWW5qXuAhWOGBQKHY7sAScQ2ZgBCA8">English</a>
+            </div>
+
             </section>
 
       
@@ -43,19 +57,19 @@
             <hr>
             <p>Ελλάδα</p>
             <hr>
+            
+            <div class="items-right">
+            <a class="privacy" href="https://policies.google.com/privacy?hl=el&fg=1">Απόρρητο</a>
+            <a class="conditions" href="https://policies.google.com/terms?hl=el&fg=1"> Όροι</a>
+            <a class="settings" href="https://www.google.com/preferences?hl=el"> Ρυθμίσεις</a>
+            </div>
 
             <div class="items-left">
             <a class="advertise" href="https://www.google.com/intl/el_gr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Διαφήμιση</a> 
             <a class="company" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Επιχείρηση</a>
             <a class="about" href="https://about.google/?utm_source=google-GR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Σχετικά με</a>
             <a class="searchfunction" href="https://google.com/search/howsearchworks/?fg=1">Πώς λειτουργεί η Αναζήτηση</a>
-            </div>
-
-            <div class="items-right">
-            <a class="privacy" href="https://policies.google.com/privacy?hl=el&fg=1">Απόρρητο</a>
-            <a class="conditions" href="https://policies.google.com/terms?hl=el&fg=1"> Όροι</a>
-            <a class="settings" href="https://www.google.com/preferences?hl=el"> Ρυθμίσεις</a>
-        </div>
+            </div>    
         </div>
 </body>
 </html>
