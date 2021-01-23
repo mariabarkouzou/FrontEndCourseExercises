@@ -8,7 +8,7 @@
         <link href="//fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700|Dancing+Script:400,700" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <style>
+       <style>
             .open {
                 background-color: limegreen !important;
             }
@@ -55,9 +55,9 @@
                 margin-right: auto;
                 font-size: 1em;
                 font-weight: 400;
-                padding: 20px;
+                padding: 20px;   
             }
-            
+ 
             @media only screen and (min-width: 37.5em) {
                 header h1 {
                     font-size: 50px;
@@ -186,7 +186,18 @@
 
         <header>
             <h1><span>Social Hackers</span>Company</h1>
-            <h2>We are a competitive firm with over 15 years of experience in the field of computer generated probabilistic maintenance hybrid datasets.</h2>
+            <script>
+                    const birthOfSha = 2005;
+                    const currentDate = new Date(); 
+                    const currentYear = currentDate.getFullYear();
+                    const yearsOfExperience = currentYear - birthOfSha;
+
+                    document.write(
+                        " <h2> We are a competitive firm with over "
+                        + yearsOfExperience 
+                        + " years of experience in the field of computer generated probabilistic maintenance hybrid datasets.</h2> "
+                        );               
+            </script>
         </header>
 
         <section>
@@ -219,9 +230,15 @@
         </div>
 
         <footer>
-            
-            <p>&copy; 2005 ~ 2020 Landing Page</p>
-        
+            <script>
+                    document.write(
+                        " <p> &copy; " + 
+                            birthOfSha + 
+                            " ~ " +
+                            currentYear +
+                        " Landing Page </p> "
+                        );
+              </script>
         </footer>
 
     </body>
