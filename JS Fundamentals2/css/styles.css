@@ -1,0 +1,82 @@
+body {
+  background-image: url("../images/javascript.jpg");
+}
+
+/*Header*/
+
+header {
+  padding: 3px;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  height: 285px;
+  width: 285px;
+  float: left;
+}
+
+header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+
+/*Table*/
+
+table,
+th,
+td {
+  border: 0.5px solid goldenrod;
+  padding: 1px;
+}
+
+table {
+  width: 70%;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(9, 8, 110);
+  margin: auto;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+a {
+  color: rgb(9, 8, 110);
+  text-decoration: none;
+}
+
+th {
+  font-size: larger;
+  color: rgb(247, 240, 240);
+  background-color: rgb(78, 78, 76);
+  padding: 30px;
+}
+tr:hover td {
+  background: #7d7e81;
+  color: #ffffff;
+  border-top: 1px solid #22262e;
+}
+tr:hover a {
+  color: white;
+}
+td {
+  padding: 10px;
+}
+
+/*Footer*/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: goldenrod;
+  color: rgb(45, 45, 46);
+  text-align: center;
+  font-family: tahoma;
+}
