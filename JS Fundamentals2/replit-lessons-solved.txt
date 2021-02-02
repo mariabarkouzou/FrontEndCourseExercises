@@ -1,0 +1,67 @@
+Lesson 4: direction - follow 
+
+const birthYear = 1948
+const thisYear = 1965
+const firstName = "Carlos"
+const lastName = "Stevenson"
+const fullName = "Carlos" + " " + "Stevenson"
+const age = thisYear - birthYear
+const greeting = "Hello! My name is " +  fullName  + " and I am " + age + " years old."
+
+module.exports = {
+	testGroup: "a",
+	greeting,
+	birthYear,
+	thisYear,
+	firstName,
+	lastName
+}
+
+ module.exports = {
+	testGroup: "b",
+	greeting,
+	birthYear,
+	thisYear,
+	firstName,
+  lastName,
+  fullName,
+  age
+}
+console.log(module.exports)
+
+
+
+Lesson 3: lets do some math
+
+const a = 1 + 8
+const b = 22 * 3
+const c = 5 % 4
+const d = a - 17
+const e = a + b + c + d
+module.exports = { a, b , c , d, e }
+
+
+Lesson 2: enter a number
+
+number = Number(prompt("enter a number"));
+
+function numberChecker() {
+	if(number >= 10) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+
+Lesson 1: troubleshooting
+
+
+function troubleshooting() {
+	const a = 1;
+	const b = 1;
+
+}
+
+module.exports = troubleshooting;
