@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Strings: Task 1</title>
+    <title>Strings: Task 4</title>
     <style>
       p {
         color: purple;
@@ -26,24 +26,21 @@
 
   </body>
   <script>
-    // Add your code here
+    let theorem = 'Pythagorean theorem';
 
-    let quoteStart = 'Don\'t judge each day by the harvest you reap.';
-    let quoteEnd = 'But by the seeds you plant.';
-    let finalQuote = quoteStart + quoteEnd;
+    let a = 5;
+    let b = 8;
 
-
-
-
+    let myString = `Using` + ` ` + theorem + ` , `  + `we can work out that that if the two shortest sides of a right-angled triangle have lengths of` + ` ` + a + ` ` +  `and` + ` `+  b + ` , ` + `the length of the hypotenuse is` + ` ` + ( a * a  +  b * b ) + ` . ` ;
+      console.log(myString)
 
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
+
     let para1 = document.createElement('p');
-    para1.textContent = finalQuote;
-
+    para1.textContent = myString;
     section.appendChild(para1);
-
   </script>
 
 </html>
