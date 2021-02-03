@@ -68,6 +68,15 @@ td {
   padding: 10px;
 }
 
+@media (max-width: 480px) {
+  table {
+    width: 100%;
+
+  }
+}
+
+
+
 /*Footer*/
 
 footer {
