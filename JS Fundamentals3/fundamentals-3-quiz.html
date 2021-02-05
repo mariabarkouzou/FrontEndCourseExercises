@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals 3</title>
+</head>
+<body>
+
+<script>
+
+    // 1) Function Declaration 
+    function add7( number ){    
+       return number + 7;
+    }
+      console.log( add7 ( 13 ) )
+         
+
+    // 2) Function Expression
+    const multiply = function( x , y ){
+      return x * y
+    }
+    console.log( multiply ( 3 , 7 ) )
+
+
+    // 3) Arrow Function
+    let capitalize = ( string )=>{
+     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
+    }
+    console.log(capitalize('aND I Can\'t HELp fALliNg IN LoVe wITh You...'))
+
+
+    // 4) Function Declaration
+    function lastLetter(string){
+      return string.slice(-1)
+    }
+    console.log(lastLetter('Only you'))
+
+</script>
+    
+</body>
+</html>
