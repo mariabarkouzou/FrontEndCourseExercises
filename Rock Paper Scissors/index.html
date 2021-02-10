@@ -8,12 +8,13 @@
   </head>
   <body>
     <script>
+
       /*ComputerPlay*/
 
       const choices = ["Rock", "Paper", "Scissors"];
 
       function computerPlay() {
-        return choices[Math.floor(Math.random() * choices.length)];
+        return [choices.charAt(0).toUpperCase() + choices.slice(1).toLowerCase()][Math.floor(Math.random() * choices.length)];
       }
 
       /*Single Round of Game*/
