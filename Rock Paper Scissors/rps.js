@@ -1,9 +1,11 @@
 "use strict";
 
 /*ComputerPlay*/
-const enterChoice = prompt("Please place your choice here!");
+
+let enterChoice = prompt("Please place your choice here!");
+enterChoice = enterChoice.slice(0,1).toUpperCase() + enterChoice.slice(1,enterChoice.length).toLowerCase();
 const choices = ["Rock", "Paper", "Scissors"];
-enterChoice = enterChoice.charAt(0).toUpperCase() + enterChoice.slice(1).toLowerCase();
+
 
 function computerPlay() {
   return [Math.floor(Math.random() * choices.length)];
