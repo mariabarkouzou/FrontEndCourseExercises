@@ -2,56 +2,67 @@
 
 /*ComputerPlay*/
 
-const userScore = 0;
-const computerScore = 0;
-let enterChoice = prompt("Please place your choice here!");
-enterChoice =
-  enterChoice.slice(0, 1).toUpperCase() +
-  enterChoice.slice(1, enterChoice.length).toLowerCase();
-const choices = ["Rock", "Paper", "Scissors"];
-const randomNumber = Math.floor(Math.random() * 3);
+let round = 0;
 
 function computerPlay() {
+  const choices = [ "Rock" , "Paper" , "Scissors"];
+  const randomNumber = Math.floor(Math.random()*choices.length);
   return choices[randomNumber];
 }
+
 
 /*Single Round of Game*/
 
 function playRound(playerSelection, computerSelection) {
+
   if (playerSelection === computerSelection) {
     return "It is a Tie!";
-  }
-  if (playerSelection === "Rock" && computerSelection === "Scissors") {
-    return "You win! Rock beats Scissors";
-  }
-
-  if (playerSelection === "Rock" && computerSelection === "Paper") {
-    return "You lose! Paper beats Rock!";
-  }
-}
-
-const playerSelection = "rock";
-const computerSelection = computerPlay();
-
-function game(playRound) {
-  if (playerSelection === computerSelection) {
-    return "It is a Tie";
   }
   if (
     (playerSelection === "Rock" && computerSelection === "Scissors") ||
     (playerSelection === "Scissors" && computerSelection === "Paper") ||
     (playerSelection === "Paper" && computerSelection === "Rock")
   ) {
-    return "You win Player!Way to go!";
+    return "You win! " + playerSelection + " beats " + computerSelection + "!";
   }
   if (
     (computerSelection === "Rock" && playerSelection === "Scissors") ||
     (computerSelection === "Scissors" && playerSelection === "Paper") ||
     (computerSelection === "Paper" && playerSelection === "Rock")
   ) {
-    return "You lost Player!Computer Won!Maybe Next Time!";
+    return "Computer Wins! " + computerSelection + " beats " + playerSelection + "!";
   }
 }
+let playerSelection = prompt ("Do you choose Rock , Paper or Scissors?");
+  playerSelection = playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1).toLowerCase();
+  const computerSelection = computerPlay();
 
-console.log(playerSelection);
-console.log(computerSelection);
+console.log(playRound(playerSelection, computerSelection))
+
+
+/*Play 5 Times */
+
+function game(){
+  let playerScore = 0;
+  let computerScore = 0;
+
+  for ( let i=0; i < 5; i++ ){
+
+if (playerScore < computerScore){
+  console.log("You lose the game.");
+} else if (playerScore > computerScore) {
+  console.log("You win the game");
+} else {
+  console.log("You are tied");
+}
+}
+}
+
+
+
+
+
+
+
+    
+  
