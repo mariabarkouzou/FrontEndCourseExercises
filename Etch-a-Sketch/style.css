@@ -1,7 +1,7 @@
 html{
     text-align:center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(142, 194, 243);
+    background-color: rgb(95, 172, 245);
     color:white;
 }
 
@@ -42,7 +42,7 @@ h1{
   }
   
   .container {
-    margin-top: 25px;
+    margin-top: 5px;
     margin-right: 40px;
     display: inline-grid;
     grid-template-columns: repeat(16, 2fr);
