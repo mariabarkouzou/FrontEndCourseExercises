@@ -1,0 +1,17 @@
+ table{
+        width:400px;
+        height:300px;
+        font-size: 30px;
+  }
+  
+  th,
+  td  {
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;    
+  }
+
+  #left td , #A5 , #B5 , #Heading , #C3 {
+    text-align: left;
+  }
+ 
