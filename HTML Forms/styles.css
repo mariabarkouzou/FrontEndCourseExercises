@@ -30,13 +30,12 @@ nav {
 
 #sign-btn {
   margin-top: 5px;
-  width: 105px;
+  width: 110px;
   height: 34px;
   display: flex;
   justify-content: space-around;
-  padding-right: 5px;
   border-radius: 5px;
-  border-width: 1px;
+  border-width: 2px;
   align-items: center;
   background-image: url(images/signup.png);
   outline: none;
@@ -139,6 +138,13 @@ label {
   margin-left: 8px;
   margin-bottom: 5px;
   font-size: 14px;
+}
+
+#email:hover,
+#password:hover,
+#phone:hover {
+  border: none;
+  box-shadow: 0 0 5px 0#0077c5;
 }
 
 small {
