@@ -1,0 +1,191 @@
+/* LEVEL 1 */
+
+#water {
+  grid-column-start: 3;
+}
+
+/* LEVEL 2 */
+
+#poison {
+  grid-column-start: 5;
+}
+
+/* LEVEL 3 */
+
+#water {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+/* LEVEL 4 */
+
+#water {
+  grid-column-start: 5;
+  grid-column-end: 2;
+}
+
+/*LEVEL 5 */
+
+#water {
+  grid-column-start: 1;
+  grid-column-end: -2;
+}
+
+/* LEVEL 6 */
+
+#poison {
+  grid-column-start: -3;
+}
+
+/* LEVEL 7 */
+
+#water {
+  grid-column-start: 2;
+  grid-column-end: span 2;
+}
+
+/* LEVEL 8 */
+
+#water {
+  grid-column-start: 1;
+  grid-column-end: span 5;
+}
+
+/* LEVEL 9 */
+
+#water {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+/* LEVEL 10 */
+
+#water {
+  grid-column: 4 / 6;
+}
+
+/* LEVEL 11 */
+
+#water {
+  grid-column: 2 / span 3;
+}
+
+/* LEVEL 12 */
+
+#water {
+  grid-row-start: 3;
+}
+
+/* LEVEL 13 */
+
+#water {
+  grid-row: 3 / 6;
+}
+
+/* LEVEL 14 */
+
+#poison {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+/* LEVEL 15 */
+
+#water {
+  grid-column: 2 / 6;
+  grid-row: 1 / 6;
+}
+
+/* LEVEL 16 */
+
+#water {
+  grid-area: 1 / 2 / 4 / 6;
+}
+
+/* LEVEL 17 */
+
+#water-2 {
+  grid-area: 2 / 3 / 5 / 6;
+}
+
+/* LEVEL 18 */
+
+#poison {
+  order: 5;
+}
+
+/* LEVEL 19 */
+
+.poison {
+  order: -1;
+}
+
+/* LEVEL 20 */
+
+#garden {
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* LEVEL 21 */
+
+#garden {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* LEVEL 22 */
+
+#garden {
+  display: grid;
+  grid-template-columns: 100px 3em 40%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* LEVEL 23 */
+
+#garden {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* LEVEL 24 */
+
+#garden {
+  display: grid;
+  grid-template-columns: 50px repeat(3, 1fr) 50px;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+/* LEVEL 25 */
+
+#garden {
+  display: grid;
+  grid-template-columns: 75px 3fr 2fr;
+  grid-template-rows: 100%;
+}
+
+/* LEVEL 26 */
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 50px 0 0 0 1fr;
+}
+
+/* LEVEL 27 */
+
+#garden {
+  display: grid;
+  grid-template: 60% 60% 60% / 200px;
+}
+
+/* LEVEL 28 */
+
+#garden {
+  display: grid;
+  grid-template: 1fr 50px / 1fr 4fr;
+}

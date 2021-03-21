@@ -1,0 +1,352 @@
+h1,
+h2,
+h3  {
+text-align: center;
+font-family: Tahoma;
+}
+
+
+
+/* Grid-Layout I */
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    " one one two two"
+    "three four four four"
+    "five five five five";
+}
+
+#one {
+  grid-area: one;
+  background-color: red;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#two {
+  grid-area: two;
+  background-color: blue;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#three {
+  grid-area: three;
+  background-color: green;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#four {
+  grid-area: four;
+  background-color: purple;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#five {
+  grid-area: five;
+  background-color: yellow;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.container {
+  border: 5px solid white;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+/* Grid Layout II */
+
+.container1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    " six six six six"
+    "seven seven eight eight"
+    "seven seven nine ten";
+}
+
+#six {
+  grid-area: six;
+  background-color: red;
+  padding: 70px;
+  border-radius: 8px;
+}
+
+#seven {
+  grid-area: seven;
+  background-color: blue;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#eight {
+  grid-area: eight;
+  background-color: green;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#nine {
+  grid-area: nine;
+  background-color: purple;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+#ten {
+  grid-area: ten;
+  background-color: purple;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.container1 {
+  border: 5px solid white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+/* Grid Layout III - Phone */
+
+.phone {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    " header header header header"
+    "sidebar sidebar sidebar sidebar "
+    "content content content  content"
+    "content content content  content"
+    "sidebar2 sidebar2 sidebar2 sidebar2"
+    "footer footer footer footer" ;
+}
+
+#header {
+  grid-area: header;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#sidebar {
+  grid-area: sidebar;
+  background-color: rgb(74, 74, 77);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#content {
+  grid-area: content;
+  background-color: rgb(74, 74, 77);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#sidebar2 {
+  grid-area: sidebar2;
+  background-color: rgb(204, 201, 201);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(35, 36, 36);
+}
+
+#footer {
+  grid-area: footer;
+  background-color: rgb(122, 119, 119);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.phone {
+  border: 5px solid white;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+
+/* Tablet */
+
+
+.tablet {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    " theader theader theader theader"
+    "tsidebar tcontent tcontent tcontent "
+    "tsidebar tcontent tcontent  tcontent"
+    "tsidebar2 tsidebar2 tsidebar2 tsidebar2"
+    "tfooter tfooter tfooter tfooter" ;
+}
+
+#theader {
+  grid-area: theader;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#tsidebar {
+  grid-area: tsidebar;
+  background-color: rgb(74, 74, 77);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#tcontent {
+  grid-area: tcontent;
+  background-color: rgb(74, 74, 77);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#tsidebar2 {
+  grid-area: tsidebar2;
+  background-color: rgb(204, 201, 201);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(35, 36, 36);
+}
+
+#tfooter {
+  grid-area: tfooter;
+  background-color: rgb(122, 119, 119);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.tablet {
+  border: 5px solid white;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+
+/* Lap Top */
+
+
+
+.laptop {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "lheader lheader lheader lheader"
+    "lsidebar lcontent lcontent lsidebar2 "
+    "lsidebar lcontent lcontent  lsidebar2"
+    "lsidebar lcontent lcontent  lsidebar2"
+    "lfooter lfooter lfooter lfooter" ;
+}
+
+#lheader {
+  grid-area: lheader;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#lsidebar {
+  grid-area: lsidebar;
+  background-color: rgb(74, 74, 77);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#lcontent {
+  grid-area: lcontent;
+  background-color: rgb(74, 74, 77);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+#lsidebar2 {
+  grid-area: lsidebar2;
+  background-color: rgb(204, 201, 201);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(35, 36, 36);
+}
+
+#lfooter {
+  grid-area: lfooter;
+  background-color: rgb(122, 119, 119);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.laptop {
+  border: 5px solid white;
+  width: 600px;
+  height:250px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: azure;
+}
