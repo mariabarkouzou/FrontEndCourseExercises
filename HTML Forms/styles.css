@@ -1,0 +1,262 @@
+html,
+body {
+  margin: 0;
+  background-color: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navigation bar */
+header {
+  padding-right: 30px;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.sign-up-request {
+  margin-left: auto;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.sign-up-request > p {
+  margin: 0;
+  padding-right: 5px;
+  color: #505050;
+}
+
+#sign-btn {
+  margin-top: 5px;
+  width: 110px;
+  height: 34px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  border-width: 2px;
+  align-items: center;
+  background-image: url(images/signup.png);
+  outline: none;
+  cursor: pointer;
+}
+
+#font-p {
+  font-size: 12px;
+}
+
+#font-a {
+  font-size: 12px;
+  color: #0077c5;
+}
+
+#sign-text {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    display: none;
+  }
+}
+
+/* The logo and title section */
+#logo {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logos {
+  display: flex;
+  justify-content: center;
+}
+
+#mint {
+  height: 30px;
+  top: 0;
+}
+
+#quickbooks {
+  height: 30px;
+  top: 0;
+}
+
+#turbotax {
+  height: 30px;
+  top: 0;
+}
+
+/* The Form */
+.form-container {
+  width: 340px;
+  box-shadow: 0 0 1px 0 rgb(73, 72, 72);
+  padding: 20px;
+  margin: 15px auto;
+  margin-bottom: 0;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(73, 72, 72);
+  font-weight: lighter;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(73, 72, 72);
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+}
+
+#email,
+#password {
+  min-width: 320px;
+  height: 30px;
+  margin: 2px auto 40px auto;
+}
+
+#phone {
+  min-width: 320px;
+  height: 30px;
+  margin: 2px auto 2px auto;
+}
+
+label {
+  margin-top: 2px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+#email:hover,
+#password:hover,
+#phone:hover {
+  border: none;
+  box-shadow: 0 0 5px 0#0077c5;
+}
+
+small {
+  margin-top: 2px;
+  margin-bottom: 30px;
+  margin-left: 8px;
+  font-size: 10px;
+}
+
+#learn {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0077c5;
+}
+
+/* Form footer */
+.form-footer {
+  background-color: #eceef1;
+  height: 40px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+#footer-captcha {
+  font-size: 10px;
+  margin-top: 10px;
+  color: grey;
+}
+
+#footer-captcha a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+#submit {
+  width: 94%;
+  height: 45px;
+  margin: auto;
+  background-image: url(images/createaccount.png);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Page Footer */
+.footer-info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-info a {
+  color: rgb(73, 72, 72);
+  text-decoration: none;
+  font-size: 12px;
+  margin: 8px;
+}
+
+.copyrights p {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  color: rgb(73, 72, 72);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.sign-up-request a {
+  text-decoration: none;
+}
+
+#agreement {
+  font-style: italic;
+  font-size: 12px;
+  padding-top: 5px;
+  text-align: center;
+  color: #757575;
+}
+
+#agreement a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.privacy-settings {
+  background-color: #ffffff;
+  height: 25px;
+  width: 98%;
+  padding: 20px;
+  margin-top: 72px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.privacy-settings a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+#font-a:hover,
+#learn:hover,
+#agreement a:hover,
+#footer-captcha a:hover,
+.footer-info a:hover,
+.privacy-settings a:hover {
+  text-decoration: underline;
+}
