@@ -3,6 +3,8 @@
   margin: auto;
 }
 
+/*Navbar */
+
 #logo {
   width: 195px;
   margin-left: 460px;
@@ -68,9 +70,10 @@ input {
 }
 
 .advertisement {
-
    padding-top: 37px;
 }
+
+/*Article*/
 
 h1 {
     color: #121212;
@@ -117,3 +120,57 @@ figcaption {
  font-size:12px;
  color:grey;
   }
+
+  .article {
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: #333;
+    font-family: helvetica;
+    margin-left: 440px;
+    padding:40px;
+  }
+
+  #date {
+    font-family: helvetica;
+    font-size: small;
+    font-weight: lighter;
+  }
+
+.sign-up-articles {
+  border-top: 1px solid lightgrey;
+  width: 38%;
+  margin-left: 480px;
+  padding:10px;
+  display:block;
+}
+
+.sign-up {
+
+  display: inline-block;
+  margin: 0px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  line-height: 1.125rem;
+  letter-spacing: 0.03rem;
+}
+
+#sign-up-article {
+
+  font-family: georgia;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+#signup-button {
+  background-color: white;
+  color:black;
+  border:1px solid black;
+  font-size: 15px;
+  margin-left: 530px;
+  margin-top: -20px;
+
+  
+}
