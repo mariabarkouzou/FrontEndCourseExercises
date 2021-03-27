@@ -196,7 +196,7 @@ figcaption span {
 
 #advertisement1 {
   width: 1580px;
-  height: 329px;
+  height: 313px;
 }
 
 .article-middle {
@@ -274,8 +274,9 @@ figcaption span {
 .article-middle2 p {
   font-family: georgia;
 }
-h4 {
+h2 {
   font-family: georgia;
+  font-size:19px;
 }
 
 .inflation {
@@ -475,8 +476,8 @@ figcaption span {
   text-decoration: underline;
 }
 
-.all-links_grid > ul > h3,
-.subscribe > ul> h3 {
+.all-links_grid > ul > li > p,
+.subscribe > ul> li >p {
     font-size: 13px;
     font-weight: 700;
     color: rgb(51, 51, 51);
