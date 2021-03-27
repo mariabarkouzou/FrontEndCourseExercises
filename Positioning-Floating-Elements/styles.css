@@ -79,14 +79,16 @@ input {
 h1 {
   color: #121212;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight:700;
   font-style: italic;
-  margin-left: 490px;
+  margin-left: 300px;
   vertical-align: baseline;
   line-height: 3rem;
   margin-top: 50px;
+  transform: scale(0.7, 1.0);
 }
+
 
 #btnstart {
   padding: 10px;
