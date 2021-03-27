@@ -39,7 +39,6 @@ input {
   position: fixed;
   overflow: hidden;
   background-color: white;
- 
 }
 
 .navbar a {
@@ -56,98 +55,100 @@ input {
 }
 
 #menu {
-    margin-left: 15px;
-    width:18px;
-    height:18px;
-    vertical-align: 5px;
+  margin-left: 15px;
+  width: 18px;
+  height: 18px;
+  vertical-align: 5px;
+  cursor: pointer;
 }
 
 #search {
   margin-left: 20px;
-  width:19px;
-  height:19px;
+  width: 19px;
+  height: 19px;
   vertical-align: 5px;
+  cursor: pointer;
 }
 
 .advertisement {
-   padding-top: 37px;
+  padding-top: 37px;
 }
 
 /*Article*/
 
 h1 {
-    color: #121212;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: 600;
-    font-style: italic;
-    margin-left:490px;
-    vertical-align: baseline;
-    line-height: 48px;
-    margin-top: 50px;
+  color: #121212;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 550;
+  font-style: italic;
+  margin-left: 490px;
+  vertical-align: baseline;
+  line-height: 3rem;
+  margin-top: 50px;
 }
 
 #btnstart {
-    padding:10px;
-    margin-left: -25px;
-    cursor: pointer;
+  padding: 10px;
+  margin-left: -25px;
+  cursor: pointer;
 }
 
 .social {
   border-top: 1px solid lightgrey;
   width: 33%;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: 490px;
 }
 
 .main img {
-    width:1200px;
-    height:675px;
-    margin-left: 190px;
+  width: 1200px;
+  height: 675px;
+  margin-left: 190px;
 }
 
 figcaption {
-    color: rgb(71, 70, 70);
-    padding: 2px;
-    text-align: left;
-    margin-left:190px;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+  color: rgb(71, 70, 70);
+  padding: 2px;
+  text-align: left;
+  margin-left: 190px;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-  figcaption span {
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-size:12px;
- color:grey;
-  }
+figcaption span {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: grey;
+}
 
-  .article {
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
-    font-weight: 700;
-    color: #333;
-    font-family: helvetica;
-    margin-left: 440px;
-    padding:40px;
-  }
+.article {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #333;
+  font-family: helvetica;
+  margin-left: 440px;
+  padding: 40px;
+}
 
-  #date {
-    font-family: helvetica;
-    font-size: small;
-    font-weight: lighter;
-  }
+#date {
+  font-family: helvetica;
+  font-size: small;
+  font-weight: lighter;
+}
+
+/*Article's sign-up*/
 
 .sign-up-articles {
   border-top: 1px solid lightgrey;
-  width: 38%;
+  width: 39%;
   margin-left: 480px;
-  padding:10px;
-  display:block;
+  padding: 10px;
+  display: flex;
 }
 
 .sign-up {
-
-  display: inline-block;
   margin: 0px;
   font-size: 0.875rem;
   font-weight: 700;
@@ -155,22 +156,177 @@ figcaption {
   font-style: normal;
   line-height: 1.125rem;
   letter-spacing: 0.03rem;
+  color: rgb(51, 51, 51);
 }
 
 #sign-up-article {
-
   font-family: georgia;
   font-size: 16px;
   font-weight: lighter;
+  color: rgb(51, 51, 51);
 }
 
 #signup-button {
   background-color: white;
-  color:black;
-  border:1px solid black;
+  color: black;
+  border: 1px solid black;
   font-size: 15px;
-  margin-left: 530px;
-  margin-top: -20px;
-
-  
+  margin-left: 20px;
 }
+
+#signup-button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Main Article*/
+
+.article-body {
+  width: 39%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+.article-body p {
+  font-family: georgia;
+}
+
+#advertisement1 {
+  width: 1580px;
+  height: 329px;
+}
+
+.article-middle {
+  width: 38%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.article-middle p {
+  font-family: georgia;
+}
+
+.free-articles {
+  font-family: helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.free-articles a {
+  color: #326891;
+  text-decoration: none;
+}
+
+.free-articles .free-articles-top {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 0px auto 1.125rem;
+}
+
+.free-articles .free-articles-bottom {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 1.125rem auto 0;
+}
+
+.article-middle1 {
+  width: 38%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.article-middle1 p {
+  font-family: georgia;
+}
+
+.article-middle1 a {
+  font-family: georgia;
+  color: #326891;
+}
+
+.article-middle1 a:hover {
+  text-decoration: none;
+}
+
+.article-middle2 {
+  width: 38%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.article-middle2 p {
+  font-family: georgia;
+}
+h4 {
+  font-family: georgia;
+}
+
+.inflation {
+  width: 997px;
+  height: 713px;
+  text-align: center;
+}
+
+.article-middle3 {
+  width: 38%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.article-middle3 p {
+  font-family: georgia;
+}
+
+.article-middle4 {
+  width: 38%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.article-middle4 p {
+  font-family: georgia;
+}
+
+.article-middle4 a {
+  font-family: georgia;
+  color: #326891;
+  text-decoration: underline;
+}
+
+.article-middle4 a:hover {
+  text-decoration: none;
+}
+
+iframe {
+  margin-left: 500px;
+  width: 560px;
+  height: 315px;
+}
+
+.video figcaption {
+ margin-left:500px;
+}
+
+.article-image {
+  text-align:center;
+}
+
+.article-image figcaption {
+  margin-left:430px;
+}
+
+
