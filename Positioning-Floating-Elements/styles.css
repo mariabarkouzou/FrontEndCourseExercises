@@ -80,7 +80,7 @@ h1 {
   color: #121212;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
-  font-weight: 550;
+  font-weight: 600;
   font-style: italic;
   margin-left: 490px;
   vertical-align: baseline;
@@ -264,6 +264,11 @@ figcaption span {
   line-height: 1.875rem;
 }
 
+
+.editors-picks {
+  float: right;
+  padding-right: 200px;
+}
 .article-middle2 p {
   font-family: georgia;
 }
@@ -317,7 +322,7 @@ iframe {
   height: 315px;
 }
 
-.video figcaption {
+#video {
  margin-left:500px;
 }
 
@@ -328,5 +333,218 @@ iframe {
 .article-image figcaption {
   margin-left:430px;
 }
+
+figcaption span {
+  color: #454444;
+}
+
+.article-middle5 {
+
+  width: 38%;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+
+.article-middle5 p {
+  font-family: georgia;
+}
+
+.article-footer {
+  width: 600px;
+  font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #454444;
+  margin: 0 auto 1rem;
+}
+
+.article-footer p > a {
+  color: #454444;
+  text-decoration: underline solid #454444;
+}
+
+.article-footer p > a:hover, 
+.article-footer p > a:focus, 
+.article-footer p > a:active {
+  color:#454444;
+  text-decoration: none;
+}
+
+.buttonslast {
+ text-align:center;
+}
+
+.suggested {
+  text-align:center;
+}
+
+#editorspicks {
+  margin-right:370px;
+}
+
+/*Footer I*/
+
+
+.masthead-logo {
+  margin-left:0;
+}
+
+.other-nav-links::before {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: '';
+  display: block;
+  height: 4.5px;
+  margin-top: 0;
+}
+
+.other-nav-links {
+  padding: 0 3rem;
+}
+
+.other-nav-links_header {
+  display: flex;
+}
+
+.other-nav-links_header .homepage-link {
+  margin: 1.125rem 0 0 auto;
+}
+
+.homepage-link .homepage {
+  color: rgb(86, 123, 149);
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+.all-links {
+  display: inline-flex;
+  gap: 3rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.all-links_grid a {
+
+  text-decoration: none;
+  color:black;
+}
+
+.all-links_grid li {
+  list-style-type: none;
+}
+
+.all-links_grid a:hover {
+  text-decoration: underline;
+}
+
+
+.all-links_grid,
+.subscribe {
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625;
+  margin-top: 1rem;
+}
+
+.all-links .all-links_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 3rem;
+}
+
+.subscribe a {
+  text-decoration: none;
+  color:black;
+}
+
+.subscribe li {
+  list-style-type: none;
+}
+
+.subscribe a:hover {
+  text-decoration: underline;
+}
+
+.all-links_grid > ul > h3,
+.subscribe > ul> h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    margin-bottom: .625rem;
+}
+
+
+.all-links .subscribe {
+  padding-left: 1rem;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.all-links .subscribe .subscribe_svg {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.all-links .subscribe ul:nth-child(2),
+.all-links .subscribe ul:nth-child(3) {
+  font-size: 11px;
+  padding-top: 1rem;
+  line-height: 2.1;
+}
+
+.all-links .subscribe ul:first-child > li {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.all-links .subscribe ul:nth-child(3) {
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+/* Footer II */
+nav.footer-nav {
+  margin: 0 3rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  text-align: center; 
+}
+
+.footer-nav .footer-nav_wrapper,
+.footer-nav .footer-nav_wrapper ul,
+.footer-nav .footer-nav_wrapper ul > li {
+  display: inline-block;
+}
+
+.footer-nav .footer-nav_wrapper ul {
+  margin-bottom: 1rem;
+}
+
+.footer-nav .footer-nav_wrapper ul > li {
+  padding: 0 .325rem;
+}
+
+.footer-nav .footer-nav_wrapper ul > li > a {
+  padding: .5625rem 0;
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color:#454444; 
+  text-decoration: none;
+}
+
+.footer-nav .footer-nav_wrapper ul > li > a:hover {
+  text-decoration: underline;
+}
+
 
 
