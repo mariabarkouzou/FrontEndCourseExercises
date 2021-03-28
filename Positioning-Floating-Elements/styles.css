@@ -1,4 +1,7 @@
-* {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   font-family: helvetica;
   margin: auto;
 }
@@ -80,15 +83,14 @@ h1 {
   color: #121212;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
-  font-weight:700;
+  font-weight: 700;
   font-style: italic;
   margin-left: 300px;
   vertical-align: baseline;
   line-height: 3rem;
   margin-top: 50px;
-  transform: scale(0.7, 1.0);
+  transform: scale(0.7, 1);
 }
-
 
 #btnstart {
   padding: 10px;
@@ -266,7 +268,6 @@ figcaption span {
   line-height: 1.875rem;
 }
 
-
 .editors-picks {
   float: right;
   padding-right: 200px;
@@ -276,7 +277,7 @@ figcaption span {
 }
 h2 {
   font-family: georgia;
-  font-size:19px;
+  font-size: 19px;
 }
 
 .inflation {
@@ -326,15 +327,15 @@ iframe {
 }
 
 #video {
- margin-left:500px;
+  margin-left: 500px;
 }
 
 .article-image {
-  text-align:center;
+  text-align: center;
 }
 
 .article-image figcaption {
-  margin-left:430px;
+  margin-left: 430px;
 }
 
 figcaption span {
@@ -342,7 +343,6 @@ figcaption span {
 }
 
 .article-middle5 {
-
   width: 38%;
   margin: 10px auto;
   text-align: left;
@@ -350,14 +350,13 @@ figcaption span {
   line-height: 1.875rem;
 }
 
-
 .article-middle5 p {
   font-family: georgia;
 }
 
 .article-footer {
   width: 600px;
-  font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+  font-family: "Libre Franklin", Arial, Helvetica, sans-serif;
   font-size: 12px;
   color: #454444;
   margin: 0 auto 1rem;
@@ -368,40 +367,41 @@ figcaption span {
   text-decoration: underline solid #454444;
 }
 
-.article-footer p > a:hover, 
-.article-footer p > a:focus, 
+.article-footer p > a:hover,
+.article-footer p > a:focus,
 .article-footer p > a:active {
-  color:#454444;
+  color: #454444;
   text-decoration: none;
 }
 
 .buttonslast {
- text-align:center;
+  text-align: center;
 }
 
 .suggested {
-  text-align:center;
+  text-align: center;
 }
 
 #editorspicks {
-  margin-right:370px;
+  margin-right: 370px;
 }
 
 /*Footer I*/
 
-
 .masthead-logo {
-  margin-left:0;
+  margin-left: 100px;
 }
 
 .other-nav-links::before {
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
-  content: '';
+  content: "";
   display: block;
   height: 4.5px;
   margin-top: 0;
+  width: 85%;
+  margin-left: 100px;
 }
 
 .other-nav-links {
@@ -418,25 +418,29 @@ figcaption span {
 
 .homepage-link .homepage {
   color: rgb(86, 123, 149);
-  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 11px;
   text-decoration: none;
+  margin-right: 125px;
 }
 
 .all-links {
   display: inline-flex;
   gap: 3rem;
-  padding-bottom: .5rem;
-  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 0.5rem;
+  width: 85%;
+}
+
+hr {
+  width: 81%;
 }
 
 .all-links_grid a {
-
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .all-links_grid li {
@@ -447,10 +451,9 @@ figcaption span {
   text-decoration: underline;
 }
 
-
 .all-links_grid,
 .subscribe {
-  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-family: helvetica;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625;
@@ -460,12 +463,14 @@ figcaption span {
 .all-links .all-links_grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 50px);
   grid-column-gap: 3rem;
+  margin-left: 60px;
 }
 
 .subscribe a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .subscribe li {
@@ -477,13 +482,12 @@ figcaption span {
 }
 
 .all-links_grid > ul > li > p,
-.subscribe > ul> li >p {
-    font-size: 13px;
-    font-weight: 700;
-    color: rgb(51, 51, 51);
-    margin-bottom: .625rem;
+.subscribe > ul > li > p {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  margin-bottom: 0.625rem;
 }
-
 
 .all-links .subscribe {
   padding-left: 1rem;
@@ -516,10 +520,12 @@ figcaption span {
 
 /* Footer II */
 nav.footer-nav {
-  margin: 0 3rem;
-  padding-top: .5rem;
+  margin: 0 4rem;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
-  text-align: center; 
+  text-align: center;
+  margin-left: 100px;
+  width: 80%;
 }
 
 .footer-nav .footer-nav_wrapper,
@@ -533,21 +539,18 @@ nav.footer-nav {
 }
 
 .footer-nav .footer-nav_wrapper ul > li {
-  padding: 0 .325rem;
+  padding: 0 0.325rem;
 }
 
 .footer-nav .footer-nav_wrapper ul > li > a {
-  padding: .5625rem 0;
-  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  padding: 0.5625rem 0;
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
   font-size: 11px;
   font-weight: 300;
-  color:#454444; 
+  color: #454444;
   text-decoration: none;
 }
 
 .footer-nav .footer-nav_wrapper ul > li > a:hover {
   text-decoration: underline;
 }
-
-
-
