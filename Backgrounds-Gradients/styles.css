@@ -1,12 +1,9 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Lucida Sans Unicode';
+  font-family: 'work sans';
 }
 
-/* The navigation bar is styled with overlay backgrounds, 
-linear-gradient borders and box shadows, to achieve the general
-look of the original bar */
 
 nav {
   margin-top: 85px;
@@ -156,27 +153,58 @@ nav ul {
 }
 
 
-.heading-1{
-    background-image: 
-        url(./images/title1.png);
-    background-repeat: no-repeat;
+.header{
+  margin-top: 60px;
 }
 
-.heading-2{
-    background-image: 
-    url(./images/title2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 100% -40%;
-    margin-top: 1px;
+.font{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "work sans";
+  text-emphasis: none;
 }
 
-.heading-3{
-    background-image: 
-    url(./images/title3.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 1px;
+.title{
+  font-size: 59px; 
+  font-weight:lighter;
+  line-height:36px;
+  font-weight: 100;
+  font-style:normal;
+}
+
+.sub-headline{
+  padding-top:30px;
+  font-size: 32px;
+  line-height: 37px;
+  font-family: "work sans";
+  font-weight: 300;
+  font-style:normal;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
+.film-link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  display: block;
+  margin: 30px auto;
+  font-weight: 200;
+  font-family: "work sans";
+}
+.film-link:hover{
+  
+      text-decoration:underline ;
+      color:rgb(255, 255, 255);
+
+}
+.play-button{
+  display: inline-block;
+  height: auto;
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: bottom;
 }
 
 .promo {
@@ -210,7 +238,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #08c;
+  color: rgb(12, 96, 138);
 }
 
 footer a:hover {
