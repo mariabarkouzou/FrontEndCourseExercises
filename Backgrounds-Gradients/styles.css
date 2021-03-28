@@ -168,7 +168,7 @@ nav ul {
   font-size: 59px; 
   font-weight:lighter;
   line-height:36px;
-  font-weight: 100;
+  font-weight: 200;
   font-style:normal;
 }
 
@@ -263,7 +263,7 @@ footer li:last-child {
   display: flex;
   justify-content: space-between;
   margin: 10px;
-  font-size: 10px;;
+  font-size: 10px;
 }
 
 .wrapper-down {
