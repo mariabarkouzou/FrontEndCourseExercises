@@ -1,0 +1,71 @@
+body{
+  
+    background-image: url('https://miro.medium.com/max/4000/1*8xi3Hc2xaAFVwvPYuNG6TQ.jpeg');
+    background-size: auto;
+    }
+ 
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #060708;
+    color: white;
+    text-align: center;
+    font-family:tahoma;
+   }
+
+h1{
+    font-family: cambria;
+    font-size: 30px;
+    color:white;
+    display: inline;
+    text-align: center;
+    padding-left: 230px;
+    }
+
+img,h1{
+  display:inline-block;
+  vertical-align: middle;
+  }
+            
+#maria{
+  height: 100%;
+  display: flex;
+  margin:auto;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  background-color: #003366;
+  width: 1000px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align:center;
+  color:rgb(240, 230, 230);
+  font-family:tahoma;
+  align-items: center;
+  font-size: 18px;
+  }
+
+  form{
+
+    width:300px;
+    height: 45px;
+    background-color:#003366;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 140px;
+    margin-right: 50px;
+    display: inline-table;
+    
+  }
+
+  input{
+    font-size: 25px;
+    font-family: tahoma;
+    border:none;
+    background-color: #003366;
+    color:white;
+  }
+
+
