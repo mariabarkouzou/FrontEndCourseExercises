@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+body, html {
+    background-color: #727272;
+    min-height: 1440px;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,p,sup,small {
+    color: #fff;
+}
+
+/* General font styling */
+h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
+    font-family: "Fredoka One", cursive;
+}
+
+/* MAIN SECTION */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    padding: 1rem 2em;
+    background-color: rgb(158, 155, 155);
+    text-align: center;
+}
+.header-table-content a {
+    color: #fff;
+    text-decoration: underline #666;
+    font-size: 4rem;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    font-family: "Fredoka One", cursive;
+}
+.primary-nav {
+    display: flex;
+    list-style: none;
+}
+
+.main-logo {
+    height: 8rem;
+    width: 20rem;
+    transition: all 0.4s ease-in;
+    padding-top: 42px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.main-nav-links li {
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.main-nav-links a {
+    color: white;
+    font-size: 2rem;
+    margin-right: 1rem;
+    text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.7);
+    font-weight: 800;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.btn-nav-links {
+    display: flex;
+    flex-direction: row;
+    background-color: #727272;
+    border-radius: 11px;
+    color: #fff;
+    padding: 3px;
+    align-content: center;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-nav-links:active {
+    border-radius: 11px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-text {
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.btn-nav-links img {
+    width: 3rem;
+    align-items: center;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 19px;
+}
+
+#search-sect {
+    padding-left: 6rem;
+    background-image: url(../images/search-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 22px auto;
+    background-position: 0.75em 50%;
+    font-size: 2rem;
+    border-radius: 11px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    box-shadow: 
+    0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(194, 61, 61, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    transition: all 0.2s ease-in-out;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+/* LATEST ARTICLES SECTION */
+
+.articles {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr 350px 200px;
+    align-items: center;
+}
+  
+.article-wrapper {
+    height: 500px;
+    text-align: left;
+    padding: 80px;
+    position: relative;
+}
+  
+.article1 {
+    background: #555557;
+}
+  
+.article2 {
+    background: #6e6d6d;
+}
+  
+.article3 {
+    background: #787878;
+}
+  
+
+.articles h3 {
+    font-size:15px;
+    margin-top:10px;
+}
+
+.articles p {
+font-size: 25px;
+text-decoration: underline;
+}
+
+.author {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+  
+.photo {
+    border: solid white;
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    transform: rotate(-20deg);
+    transform-origin: left bottom;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
+    transition: all 0.2s ease-out 0s;
+}
+  
+.photo:hover {
+    transform: rotate(0deg);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
+}
+  
+.photo img {
+    width: 75px;
+    height: 75px;
+}
+  
+.name {
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: 18px;
+}
+  
+.name h3 {
+    padding-left: 5px;
+}
+  
+.article-title {
+    font-family: "Fredoka One", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+  }
+  
+
