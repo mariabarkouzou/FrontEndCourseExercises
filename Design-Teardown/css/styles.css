@@ -168,7 +168,10 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
     background: #787878;
 }
   
+ h2 {
 
+    font-size:25px;
+}
 .articles h3 {
     font-size:15px;
     margin-top:10px;
