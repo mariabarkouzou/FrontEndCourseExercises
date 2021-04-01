@@ -230,3 +230,87 @@ text-decoration: underline;
   }
   
 
+/*Newsletter*/
+
+.newsletter {
+    width: 50%;
+    height: 800px;
+    display: flex;
+    float:right;
+    margin: 30px;
+  }
+  
+  .support {
+    height: 100px;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .smashing-main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 598px;
+    background: rgb(51, 50, 50);
+    border: 1px solid;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-link {
+    width: 50%;
+    background-color: transparent;
+  }
+  
+  .smashing-main h1 {
+    margin-top: 30px;
+    font-size: 5rem;
+    line-height: 2em;
+  }
+  
+  .smashing-main h2 {
+    margin: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 2rem;
+    line-height: 1.5em;
+  }
+  
+  .features-link {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 42px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    background-color: lightgray;
+  }
+  
+  .smashing-main .explore {
+    font-size: 2rem;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  .features-link:hover {
+    cursor: pointer;
+  }
+  
+  .features-link:hover .explore {
+    color: gray;
+  }
+  
+  .smashing-main span {
+    font-size: 16px;
+    color: white;
+    margin-top: 9px;
+  }
+  
+  .features-link:hover .smashing-main span {
+    color: gray;
+  }
