@@ -174,20 +174,20 @@ a,
 }
 
 .article1 {
-  background: #828287;
+  background: #717175;
   grid-column: 1;
   margin-bottom: 2em;
   padding: 8em;
 }
 
 .article2 {
-  background: #787878;
+  background: #7e7a7a;
   grid-column: 1;
   margin-bottom: 2em;
 }
 
 .article3 {
-  background: #6b6b6b;
+  background: #7e7a7a;
   grid-column: 1;
   margin-bottom: 2em;
 }
@@ -243,7 +243,7 @@ a,
   grid-column: 2;
   grid-row: 1/-1;
   padding: 18em 1em;
-  background: #727272;
+  background: #4d4848;
 }
 
 .newsletter input {
@@ -275,7 +275,7 @@ a,
   gap: 2em;
 }
 .guide {
-  background-color: rgb(105, 103, 103);
+  background-color: rgb(116, 112, 112);
   padding: 1.5em;
   border-radius: 5px;
   display: flex;
@@ -328,7 +328,7 @@ a,
 .workshops {
   margin-top: 2em;
   padding: 2em;
-  background-color: blueviolet;
+  background-color: rgb(112, 111, 114);
   text-align: center;
   flex-direction: column;
 }
@@ -358,7 +358,7 @@ a,
 /*Footer*/
 
 footer {
-	background-color: rgb(93, 93, 93);
+	background-color:rgb(88, 88, 88);
 }
 .footer-container {
 	color: white;
