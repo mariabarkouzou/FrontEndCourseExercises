@@ -1,1035 +1,405 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    text-decoration: none;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-body, html {
-    background-color: #727272;
-    min-height: 1440px;
-    font-size: 62.5%;
-    overflow-x: hidden;
+ul {
+  list-style: none;
 }
 
-h1,h2,h3,p,sup,small {
-    color: #fff;
+body {
+  background-color: white;
+  /* min-height: 1440px; */
+  /* overflow-x: hidden; */
+}
+
+h1 {
+  display:none;
+}
+
+h1,
+h2,
+h3,
+p,
+sup,
+small {
+  color: #fff;
 }
 
 /* General font styling */
-h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
-    font-family: "Fredoka One", cursive;
+
+h1,
+h2,
+h3,
+a,
+.post-into,
+.post-author,
+.community-links,
+.guide p {
+  font-family: "Fredoka One", cursive;
 }
 
-/* MAIN SECTION */
+/* Main Section */
+
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 8rem;
-    padding: 1rem 2em;
-    background-color: rgb(158, 155, 155);
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2em;
+  background-color: rgb(88, 88, 88);
+  text-align: center;
 }
+
 .header-table-content a {
-    color: #fff;
-    text-decoration: underline #666;
-    font-size: 4rem;
-    text-align: center;
-    display: block;
-    line-height: 50px;
-    letter-spacing: 2px;
-    padding-bottom: 30px;
-    font-family: "Fredoka One", cursive;
+  color: #fff;
+  text-decoration: underline #666;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+  font-family: "Fredoka One", cursive;
 }
 .primary-nav {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .main-logo {
-    height: 8rem;
-    width: 20rem;
-    transition: all 0.4s ease-in;
-    padding-top: 42px;
-    margin-left: 10px;
-    margin-right: 20px;
+  width: 15rem;
+  transition: all 0.4s ease-in;
+  padding-top: 42px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.main-nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .main-nav-links li {
-    display: inline-block;
-    list-style: none;
-    color: #fff;
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 30px;
+  color: #fff;
 }
 
 .main-nav-links a {
-    color: white;
-    font-size: 2rem;
-    margin-right: 1rem;
-    text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.7);
-    font-weight: 800;
-    padding: 1rem;
-    border-radius: 0.8rem;
+  color: white;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.7);
+  font-weight: 800;
+  padding: 1rem;
+  border-radius: 0.8rem;
 }
 
 .btn-nav-links {
-    display: flex;
-    flex-direction: row;
-    background-color: #727272;
-    border-radius: 11px;
-    color: #fff;
-    padding: 3px;
-    align-content: center;
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: #727272;
+  border-radius: 11px;
+  color: #fff;
+  padding: 3px;
+  align-content: center;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .btn-nav-links:active {
-    border-radius: 11px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav-links:hover {
-    background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 11px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .btn-text {
-    align-items: center;
-    padding-top: 6px;
-    padding-bottom: 6px;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .btn-nav-links img {
-    width: 3rem;
-    align-items: center;
+  width: 3rem;
+  align-items: center;
 }
 
 .search-bar {
-    position: relative;
-    margin-left: 19px;
+  position: relative;
+  margin-left: 19px;
 }
 
 #search-sect {
-    padding-left: 6rem;
-    background-image: url(../images/search-icon.svg);
-    background-repeat: no-repeat;
-    background-size: 22px auto;
-    background-position: 0.75em 50%;
-    font-size: 2rem;
-    border-radius: 11px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 700;
-    box-shadow: 
-    0 13px 27px -5px rgba(50, 50, 93, 0.25),
+  padding-left: 3rem;
+  background-image: url(../images/search-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 22px auto;
+  background-position: 0.75em 50%;
+  font-size: 1rem;
+  border-radius: 11px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(194, 61, 61, 0.3),
     0 -6px 16px -6px rgba(0, 0, 0, 0.025);
-    transition: all 0.2s ease-in-out;
-    margin-top: 35px;
-    margin-left: 10px;
-    margin-right: 5px;
+  transition: all 0.2s ease-in-out;
 }
 
 /* LATEST ARTICLES SECTION */
 
 .latest-articles {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 60% 35%;
+  align-items: start;
+  gap: 5%;
+  margin-top: 2em;
+  margin: 2em auto 0;
 }
-  
-.notify-article {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 0;
-    padding-top: 0;
-    align-items: center;
-    background: linear-gradient(to right, #828287, #828287 50.05%, #787878 0%, #787878);
-}
-  
-.notify-article h1 {
-    font-size: 40px;
-    background: #fff;
-    font-weight: 700;
-    width: fit-content;
-}
-  
-.first-notify {
-    margin-top: 40px;
-    padding: 10px 10px 0 10px;
-    color: #666;
-}
-  
-.second-notify {
-    margin-bottom: 40px;
-    padding: 0 10px 10px 10px;
-    color: #666;
-}
-  
-.articles {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-}
-  
+
 .article-wrapper {
-    height: 500px;
-    text-align: left;
-    padding: 80px;
-    position: relative;
+  text-align: left;
+  padding: 2em;
+  position: relative;
 }
-  
+
 .article1 {
-    background: #828287;
+  background: #828287;
+  grid-column: 1;
+  margin-bottom: 2em;
+  padding: 8em;
 }
-  
+
 .article2 {
-    background: #787878;
+  background: #787878;
+  grid-column: 1;
+  margin-bottom: 2em;
 }
-  
+
 .article3 {
-    background: #6b6b6b;
+  background: #6b6b6b;
+  grid-column: 1;
+  margin-bottom: 2em;
 }
-  
-.article4 {
-    background: #727272;
-}
-  
+
 .author {
-    display: inline-flex;
-    margin-bottom: 20px;
+  display: inline-flex;
+  margin-bottom: 20px;
 }
-  
+
 .photo {
-    border: solid white;
-    border-radius: 8px;
-    width: 75px;
-    height: 75px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    display: block;
-    transform: rotate(-20deg);
-    transform-origin: left bottom;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
-    transition: all 0.2s ease-out 0s;
+  border: solid white;
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  transform: rotate(-20deg);
+  transform-origin: left bottom;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
+  transition: all 0.2s ease-out 0s;
 }
-  
+
 .photo:hover {
-    transform: rotate(0deg);
-    box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
+  transform: rotate(0deg);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
 }
-  
+
 .photo img {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
-  
+
 .name {
-    display: inline-flex;
-    margin-left: 10px;
-    font-size: 18px;
+  display: inline-flex;
+  margin-left: 10px;
+  font-size: 18px;
 }
-  
+
 .name h3 {
-    padding-left: 5px;
+  padding-left: 5px;
 }
-  
+
 .article-title {
-    font-family: "Fredoka One", cursive;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 1.5em;
-    margin-bottom: 50px;
-  }
-  
-.links {
-    display: inline-flex;
+  font-family: "Fredoka One", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.5em;
+  margin-bottom: 50px;
 }
 
-.links p {
-    margin-right: 40px;
-    font-size: 15px;
-    font-family: "Fredoka One", cursive;
-    font-weight: bold;
+.newsletter {
+  grid-column: 2;
+  grid-row: 1/-1;
+  padding: 18em 1em;
+  background: #727272;
 }
 
-.arrow-link {
-    font-size: 5rem;
-    color: #fff;
+.newsletter input {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: rgb(46, 44, 44);
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
 }
 
-.arrow-section {
-    position: absolute;
-    bottom: 6rem;
+.newsletter p {
+  font-size: 20px;
+  text-align: center;
 }
 
-.membership {
-    padding: 1.5em 0;
-    color: #fff;
-    position: relative;
-    background-color: #535355;
+/*Guides Section*/
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.membership-conatainer {
-    flex-direction: row;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.guides {
+  padding: 3em;
+  gap: 2em;
+}
+.guide {
+  background-color: rgb(105, 103, 103);
+  padding: 1.5em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.membership-text {
-    width: 50%;
-    margin: 50px;
-    line-height: 2rem;
-    font-size: 2rem;
-    padding-right: 4em;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-left: 1rem;
+.guide-btn {
+  color: white;
+  background-color: dimgrey;
+  border-radius: 5px;
+  padding: 1em 1.5em;
+  outline: none;
+  border: none;
+  align-self: center;
 }
 
-.membership-parag {
-    font-size: 20px;
-    line-height: 32.9px;
+/* Latest posts section*/
+.latest-posts {
+  margin-top: 2em;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+.latest-post {
+  display: flex;
+  width: 48%;
 }
 
-.membership-parag a {
-    color: #fff;
-    text-decoration: underline;
+/*Community Section*/
+
+.community {
+  margin-top: 2em;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.community-btn {
+  padding: 1em 1.5em;
+  border-radius: 7px;
 }
 
-.mem-list-main {
-    margin: 40px;
-    line-height: 35px;
-    font-size: 18px;
-    list-style: decimal;
+/* Workshops section*/
+
+.workshops {
+  margin-top: 2em;
+  padding: 2em;
+  background-color: blueviolet;
+  text-align: center;
+  flex-direction: column;
+}
+.workshops-photo {
+  width: 60%;
 }
 
-.mem-list-main li::before {
-    content: "\2022";
-    color: #fff;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+/*Community Links*/
+
+.community-links {
+	background-color: rgb(99, 97, 97);
+	margin-top: 2em;
+	padding: 2em;
+	flex-direction: column;
+}
+.person-of-week {
+	margin-top: 2em;
+	padding: 2em;
+	display: flex;
+}
+.person-of-week-photo {
+	width: 200px;
+	height: 200px;
 }
 
-.mem-list-main a {
-    color: #fff;
-    text-decoration: underline;
+
+/*Footer*/
+
+footer {
+	background-color: rgb(93, 93, 93);
 }
-
-.cat-firechat {
-    -o-object-fit: cover;
-    object-fit: cover;
-    display: block;
-    transform: rotate(-20deg);
-    transform-origin: left bottom;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
-    transition: all 0.2s ease-out 0s;
-    background-color: transparent;
-    position: relative;
-    z-index: 20;
+.footer-container {
+	color: white;
+	margin-top: 2em;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
-
-.cat-firechat:hover {
-    transform: rotate(0deg);
-    box-shadow: rgba(0, 0, 0, 0.3)0 0.5rem 2rem;
-    z-index: 10;
+.footer__topics__list,
+.footer__links {
+	padding: 2em;
+	margin: 3em auto;
+	margin-bottom: 3em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em 2em;
+	list-style-type: circle;
+	list-style: initial;
 }
-.membership-btn {
-    background-color: #333232;
-    margin: 0.75em;
-    font-size: 2rem;
-    color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    width: 308px;
+.footer__notes {
+	margin-bottom: 3em;
 }
-
-.membership-btn:hover {
-    background-color: #727272;
-    transition: all 0.4s ease-out 0s;
+.footer__links {
+	width: 60%;
+	margin: 0 auto;
+	list-style: none;
 }
-
-.mem-img {
-    background-color: transparent;
+.footer__topics__list a,
+.footer__links a,
+.footer__notes p a {
+	color: white;
 }
-
-/* latest Post Section */
-.latest-posts{
-    height: 600px;
-    display: flex;
-    margin-right: 45px;
-    margin-top: 20px;
-    margin-left: 10px;
+.cage-photo {
+	float: left;
+	width: 10em;
 }
-
-.post-wrapper {
-    height: 550px;
-    position: relative;
-    z-index: 10;
-    margin-right: -50px;
+.back-to-top {
+	position: fixed;
+	z-index: 1000;
+	right: 1em;
+	bottom: 1em;
+	opacity: 0.8;
 }
-
-.post-wrapper:hover {
-    transform: scale(1.05) translateY(-0.5px);
-    transition: all 0.5s;
-    z-index: 20;
-    background-color: rgb(184, 180, 180);
-}
-
-.post-intro{
-    font-size: 13px;
-    margin-left: 50px;
-    margin-right: 30px;
-    margin-top: 20px;
-    padding: 20px;
-}
-
-.post-arrow a {
-    color: white;
-    font-size: 3.5rem;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-.smashing-main a {
-    color: white;
-    text-decoration: underline;
-}
-
-.post-intro h1 {
-    margin-bottom: 20px;
-}
-
-.guide a {
-    font-size: 20px;
-    padding: 14px;
-    font-family: "Fredoka One", cursive;
-    font-weight: 800;
-    border-radius: 10px;
-    background: rgb(87, 84, 84);
-  }
-  
-  .post-intro h1 a {
-    text-decoration: none;
-  }
-  
-  .post-intro h6 {
-    color: rgb(59, 53, 53);
-  }
-  
-  .post-intro span {
-    color: rgb(59, 53, 53);
-  }
-  
-  .post-intro h2 {
-    margin-top: 20px;
-    font-weight: 100;
-    line-height: 32px;
-  }
-  
-  .post-author {
-    font-size: 15px;
-    font-weight: 800;
-  }
-  
-  .post-arrow {
-    display: flex;
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 20px;
-    align-items: center;
-  }
-  
-  .post-wrapper:hover .post-arrow {
-    background-color: #333232;
-    transition: all 0.5s;
-  }
-  
-  .post-wrapper:hover .post-title {
-    color: rgb(105, 101, 101);
-  }
-  
-  .post-author:hover {
-    color: lightgray;
-  }
-  
-  hr {
-    width: 23%;
-    margin-left: 21px;
-    color: black;
-  }
-
- /* Smashing Membership */
-
-.smashing {
-    width: 100%;
-    height: 800px;
-    display: flex;
-    margin: 30px;
-  }
-  
-  .support {
-    height: 100px;
-    width: 30%;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .shopify {
-    width: 86%;
-    height: 199px;
-    border: 1px solid;
-    border-radius: 11px;
-    margin-top: 33px;
-    margin-left: 38px;
-  }
-  
-  .smashing-main {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 598px;
-    background: rgb(51, 50, 50);
-    border: 1px solid;
-    border-radius: 16px;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .image-link {
-    width: 25%;
-    background-color: transparent;
-  }
-  
-  .smashing-main h1 {
-    margin-top: 30px;
-    font-size: 5rem;
-    line-height: 2em;
-  }
-  
-  .smashing-main h2 {
-    margin: 30px;
-    padding-left: 75px;
-    padding-right: 75px;
-    font-size: 2rem;
-    line-height: 1.5em;
-  }
-  
-  .features-link {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    height: 42px;
-    border-radius: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
-    background-color: lightgray;
-  }
-  
-  .smashing-main .explore {
-    font-size: 2rem;
-    text-decoration: none;
-    margin-right: 5px;
-    margin-top: 5px;
-  }
-  
-  .features-link:hover {
-    cursor: pointer;
-  }
-  
-  .features-link:hover .explore {
-    color: gray;
-  }
-  
-  .smashing-main span {
-    font-size: 16px;
-    color: white;
-    margin-top: 9px;
-  }
-  
-  .features-link:hover .smashing-main span {
-    color: gray;
-  }
-  
-  /* smashing tv */
-  
-  .smashing .post-wrapper {
-    width: 30%;
-    height: 600px;
-    margin-right: -30px;
-  }
-  
-  .lastest-arti {
-    text-decoration: none;
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    bottom: -748px;
-    left: -583px;
-    color: #fff;
-    border-bottom: solid 5px #141414;
-  }
-  
-  .lastest-arti::after {
-    content: '  ';
-  }
-  
-  /* Community links */
-  
-  .community-links {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
-    background: rgb(134, 132, 132);
-  }
-  
-  .person-of-week {
-    display: flex;
-    width: 80%;
-    margin-top: 90px;
-    margin-left: 125px;
-  }
-  
-  .communitities {
-    width: 84%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: initial;
-    align-items: center;
-    margin-top: 90px;
-    margin-left: 90px;
-  }
-  
-  .community-wrapper {
-    display: inline-flex;
-    width: 90%;
-  }
-  
-  .community {
-    height: 380px;
-    text-align: left;
-    width: 344px;
-  }
-  
-  .community-author {
-    display: inline-flex;
-    margin-bottom: 15px;
-  }
-  
-  .community-photo {
-    border: solid white;
-    border-radius: 8px;
-    width: 75px;
-    height: 75px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    display: block;
-    transform: rotate(-20deg);
-    transform-origin: left bottom;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
-    transition: all 0.2s ease-out 0s;
-    margin-right: 10px;
-  }
-  
-  .community-photo:hover {
-    transform: rotate(0deg);
-    box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
-  }
-  
-  .person-of-week .community-photo {
-    width: 200px;
-    height: 200px;
-    margin-right: 10px;
-  }
-  
-  .community-name {
-    display: inline-flex;
-    font-size: 18px;
-  }
-  
-  .community-article {
-    margin-bottom: 20px;
-  }
-  
-  .community-links h2 {
-    font-weight: 100;
-    margin-bottom: 30px;
-    line-height: 1.5em;
-  }
-  
-  /* MAIN TABLE CONTENTS SECTION */
-  .main-table-contents-section {
-      display: flex;
-      flex-direction: column;
-      background-color: #161515;
-  }
-  .first-contents-span {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 2px;
-    display: block;
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 25px;
-    font-family: "Fredoka One", cursive;
-  }
-
-  .table-contents-para {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    color: #fff;
-    text-align: center;
-    padding-bottom: 30px;
-    font-family: "Fredoka One", cursive;
-  }
-
-  .table-link-1 {
-    color: #fff;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: #787878;
-    padding: 13px;
-    border-radius: 6px;
-    width: 25rem;
-    margin: 0 auto;
-  }
-
-  .homepage-illus {
-    width: 80rem;
-    height: 40rem;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  /* MAIN-DESIGN-SECTION *
-  /* <!-- Our guides section --> */
-
-  .our-guides {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 20px;
-    margin: 35px;
-  }
-
-  .guide {
-    width: 40%;
-    height: auto;
-    border-radius: 15px;
-    padding: 30px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    background: rgb(190, 189, 189);
-    color: black;
-  }
-
-  .guide h1 {
-    margin-bottom: 40px;
-    color: black;
-  }
-  
-  .guide p {
-    margin-bottom: 35px;
-    font-weight: 100;
-    color: black;
-  }
-  
-  .guide-link {
-    text-decoration: underline;
-    margin-bottom: 20px;
-    font-family: "Fredoka One", cursive;
-    color: rgb(211, 205, 205);
-    background: transparent;
-  }
-
-  .guide .guide-link {
-    background: none;
-    color: #333232;
-  }
-  
-  .guide-color1 {
-    color: white;
-  }
-  
-  a .guide-color1 {
-    background-color: #333232;
-  }
-  
-  .guide-color1:hover {
-    color: #888;
-  }
-  
-  .guide-color2 {
-    color: white;
-  }
-  
-  .guide-color3 {
-    color: white;
-  }
-  
-  .guide-color4 {
-    color: #333232;
-  }
-
-  a .guide-color2 {
-    background-color: #535355;
-  }
-  
-  a .guide-color3 {
-    background-color: #9a9a9f;
-  }
-  
-  a .guide-color4 {
-    background-color: #6b6b6b;
-  }
-  
-  .email-section {
-    background: #a5a2a2;
-  }
-  
-  .email {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 30px;
-    background: white;
-  }
-  
-  .guide img {
-    width: calc(100% + 60px);
-    margin-left: -30px;
-  }
-  
-  .email form {
-    height: inherit;
-    width: 65%;
-  }
-  
-  .email input {
-    font-size: 20px;
-    height: 30px;
-    width: 90%;
-    margin: 10px;
-    border: none;
-  }
-  
-  .email input:focus {
-    outline: none;
-  }
-  
-  .email button {
-    width: 35%;
-    border-radius: 4px;
-    background-color: black;
-    color: white;
-    font-family: "Fredoka One", cursive;
-    font-weight: 801;
-  }
-  
-  .email-link {
-    margin-top: 30px;
-  }
-  
-  .email-last {
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 18px;
-  }
-
-  /* footer section */
-
-.footer {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background: rgb(77, 70, 70);
-    height: auto;
-    align-items: center;
-    color: white;
-  }
-  
-  .browse {
-    font-size: 15px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-  }
-  
-  .footer-list {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    max-width: 90%;
-    margin-bottom: 70px;
-  }
-  .footer-list a {
-    font-size: 24px;
-    color: white;
-    margin-left: 9px;
-    margin-right: 8px;
-}
-  
-  .footer div {
-    padding: 2px;
-    margin-right: 12px;
-    margin-left: 10px;
-  }
-  
-  .statement {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    font-family: "Fredoka One", cursive;
-    font-size: 20px;
-    margin-bottom: 30px;
-    line-height: 3rem;
-  }
-  
-  .footer-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    max-width: 50%;
-    font-size: 19px;
-    line-height: 2.5em;
-  }
-  .footer-links a {
-    text-decoration-color: underline;
-    color: #fff;
-    margin-right: 15px;
-  }
-  
-  .main-design-sect {
-    display: grid;
-    grid-template-columns: 65% 35%;
-    padding: 30px 70px;
-    margin-top: 40px;
-    color: #fff;
-    margin-bottom: 3rem;
-    background: #333232;
-  }
-  
-  .main-design-left h4 {
-    font-size: 18px;
-  }
-  
-  .header-main-design {
-    color: #fff;
-    margin-top: 30px;
-    font-size: 30px;
-  }
-  
-  .header-main-design h1 {
-    margin: 6px 0;
-  }
-  
-  .main-design-left p {
-    font-size: 16px;
-    line-height: 26px;
-    margin-bottom: 30px;
-  }
-  
-  .btn-main-design-sect {
-    color: rgb(39, 38, 38);
-    font-size: 2rem;
-    border-radius: 15px;
-    padding: 17px;
-    margin: 20px;
-    background-color: rgb(209, 202, 202);
-  }
-  
-  .main-design-right {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .main-design-right img {
-    width: 260px;
-    position: absolute;
-    bottom: 15px;
-    transform: rotate(-15deg);
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
-    background: transparent;
-  }
-  
-  .main-design-right img:hover {
-    transform: rotate(0deg);
-  }
-  
-  .cat {
-    position: absolute;
-    width: 190px;
-    bottom: 50px;
-    right: 50px;
-  }
-  
-  .laptop {
-    position: absolute;
-    width: 160px;
-    bottom: 50px;
-    left: 50px;
-  }
-  
-  .back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 20px;
-    background: lightgray;
-    width: 51px;
-    height: 45px;
-    border-radius: 7px;
-    transform: rotate(-11deg);
-  }
-  
-  .back-to-top:hover {
-    background: darkgray;
-    transform: rotate(0deg);
-  }
-  
-  .back-to-top .iconify {
-    margin-left: 7px;
-    font-size: 39px;
-    color: darkslategray;
-  }

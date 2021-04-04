@@ -1,587 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Smashing Magazine" />
+    <title>Smashing Magazine - For Web Designers and Developers</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smashing Magazine</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
-        integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
-</head>
-
-<body>
+  <body>
+    
     <!-- HEADER SECTION -->
     <header class="main-header">
-        <!-- NAVBAR -->
-        <nav class="primary-nav">
-            <div class="main-logo">
-                <a href="#">
-                    <img class="img-logo" src="./images/logo.svg" alt="logo">
-                </a>
-            </div>
-            <ul class="main-nav-links">
-                <li><a class="nav-links" href="#">Articles</a></li>
-                <li><a class="nav-links" href="#">Guides</a></li>
-                <li><a class="nav-links" href="#">Books</a></li>
-                <li><a class="nav-links" href="#">Events</a></li>
-                <li><a class="nav-links" href="#">Membership</a></li>
-                <li><a class="nav-links" href="#">Job Board</a></li>
-                <li><a class="btn-nav-links" href="#">
-                        <p class="btn-text">More</p><img src="./images/menu-cat.svg" alt="menu-cat">
-                    </a></li>
-            </ul>
-            <div class="search-bar">
-                <form action="#">
-                    <div class="search-input-main">
-                        <input type="search" name="search" placeholder="Search Articles..." id="search-sect">
-                    </div>
-                </form>
-            </div>
-        </nav>
+      <!-- NAVBAR -->
+      <nav class="primary-nav">
+        <div class="main-logo">
+          <a href="#">
+            <img class="img-logo" src="./images/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <ul class="main-nav-links">
+          <li><a class="nav-links" href="#">Articles</a></li>
+          <li><a class="nav-links" href="#">Guides</a></li>
+          <li><a class="nav-links" href="#">Books</a></li>
+          <li><a class="nav-links" href="#">Events</a></li>
+          <li><a class="nav-links" href="#">Membership</a></li>
+          <li><a class="nav-links" href="#">Job Board</a></li>
+          <li>
+            <a class="btn-nav-links" href="#">
+              <p class="btn-text">More</p>
+              <img src="./images/menu-cat.svg" alt="menu-cat" />
+            </a>
+          </li>
+          <li class="search-bar" title="search">
+            <form action="#">
+              <div class="search-input-main">
+                <input
+                  type="search"
+                  name="search"
+                  placeholder="Search Articles..."
+                  id="search-sect" 
+                />
+              </div>
+            </form>
+          </li>
+        </ul>
+      </nav>
     </header>
 
+    <h1>Smashing Magazine Home Page</h1>
     <!-- LATEST ARTICLES SECTION -->
 
     <main>
-        <section class="latest-articles">
-            <div class="articles">
-                <article class="article-wrapper article1">
-                    <div class="author">
-                        <img src="images/cosima-mielke-200px.jpg" alt="" class="photo">
-                        <div class="name">
-                            <h2>Carol Gikandi</h2>
-                            <h3>wrote</h3>
-                        </div>
-                    </div>
-                    <h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2
-                            comments</small></h2>
-                    <div class="links">
-                        <p>#User Experience <sup>134</sup></p>
-                        <p>#UI Design <sup>134</sup></p>
-                        <p>#Analytics <sup>134</sup></p>
-                    </div>
-                    <div class="arrow-section">
-                        <a href="#" class="arrow-link">&#8594;</a>
-                    </div>
-
-                </article>
-                <article class="article-wrapper article2">
-                    <div class="author">
-                        <img src="images/fortune-kay-200x200.jpg" alt="" class="photo">
-                        <div class="name">
-                            <h2>Slaughter yaFace</h2>
-                            <h3>wrote</h3>
-                        </div>
-                    </div>
-                    <h2 class="article-title">What A Time To Be Smashing!: Tales form October (2020 Wall Papers
-                        Editions) <small>2 comments</small></h2>
-                    <div class="links">
-                        <p>#Wall Papers <sup>134</sup></p>
-                    </div>
-                    <div class="arrow-section">
-                        <a href="#" class="arrow-link">&#8594;</a>
-                    </div>
-                </article>
-                <article class="article-wrapper article3">
-                    <div class="author">
-                        <img src="images/__k.a.n.d.y___2020.11.24_87g5d7.jpg" alt="" class="photo">
-                        <div class="name">
-                            <h2>Mary Peter</h2>
-                            <h3>wrote</h3>
-                        </div>
-                    </div>
-                    <h2 class="article-title">Unit Testing in React Native Applications <small>2 comments</small></h2>
-                    <div class="links">
-                        <p>#Apps <sup>134</sup></p>
-                        <p>#React <sup>134</sup></p>
-                        <p>#Testing <sup>134</sup></p>
-                    </div>
-                    <div class="arrow-section">
-                        <a href="#" class="arrow-link">&#8594;</a>
-                    </div>
-                </article>
-
-                <article class="article-wrapper article4">
-                    <div class="author">
-                        <img src="images/clara-buenconsejo-200x200.jpg" alt="" class="photo">
-                        <div class="name">
-                            <h2>Tabitha Wanjiku</h2>
-                            <h3>wrote</h3>
-                        </div>
-                    </div>
-                    <h1 class="article-title">Different Ways to Design Digital Product Pages <small>2 comments</small>
-                    </h1>
-                    <div class="links">
-                        <p>#Design <sup>134</sup></p>
-                        <p>#Business <sup>134</sup></p>
-                        <p>#Product Strategy <sup>134</sup></p>
-                    </div>
-                    <div class="arrow-section">
-                        <a href="#" class="arrow-link">&#8594;</a>
-                    </div>
-                </article>
+      <section class="latest-articles">
+        <div class="articles">
+          <article class="article-wrapper article1">
+            <div class="author">
+              <img src="images/stephen-roe.jpg" alt="" class="photo" />
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-        </section>
-
-        <!-- Smashing Membership-->
-        <section class="smashing">
-            <div class="support">
-                <p>Our friends and supporters</p>
-                <div class="shopify"></div>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+            </h2>
+          </article>
+          <article class="article-wrapper article2">
+            <div class="author">
+              <img src="images/fortune-kay-200x200.jpg" alt="" class="photo" />
+              <div class="name">
+                <h2>Slaughter yaFace</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-            <div class="smashing-main">
-                <a href="#" class="image-link"><img src="images/singing-barista.svg" alt="singing-barista"></a>
-                <a href="#">
-                    <h1>1,699 Smashing Members</h1>
-                </a>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta provident suscipit, non accusamus pariatur, in fuga dolor at, voluptate eos. Mollitia dolorem magni possimus id voluptates praesentium tempore animi.<a href="#">Join the community</a></h2>
-                <a href="#" class="explore features-link">Explore Features</a>
-                <p>Already have an account? <a href="#">Sign in</a> </p>
+            <h2 class="article-title">
+              What A Time To Be Smashing!: Tales form October (2020 Wall Papers
+              Editions)
+            </h2>
+          </article>
+          <article class="article-wrapper article3">
+            <div class="author">
+              <img
+                src="images/__k.a.n.d.y___2020.11.24_87g5d7.jpg"
+                alt=""
+                class="photo"
+              />
+              <div class="name">
+                <h2>Mary Peter</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-        </section>
+            <h2 class="article-title">
+              Unit Testing in React Native Applications
+            </h2>
+          </article>
+        </div>
+        <article class="article-wrapper newsletter">
+          <input type="text" placeholder="Email Newsletter" />
+          <p>
+            The standard chunk of Lorem Ipsum used since the 1500s <br />
+            is reproduced below for those interested.
+          </p>
+          <input type="text" placeholder="Your email" />
+        </article>
+      </section>
 
-        <!-- Latest Posts Section -->
-        <section class="latest-posts">
-            <article class="post-wrapper">
-                <div class="post-intro">
-                    <a href="#">
-                        <p>4 days ago</p>
-                    </a>
-                    <a href="#">
-                        <h2 class="post-title">Different Ways To Design Different Products Pages</h2>
-                    </a>
-                    <a href="#">
-                        <p class="post-author">By Carol Gikandi</p>
-                        <hr>
-                    </a>
-                    <a href="#">
-                        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea natus a illum laboriosam ipsa nulla amet dolore magni? Expedita ullam accusamus nobis ex? Quis, dolorem! Sunt ipsum blanditiis reiciendis laborum!</h2>
-                    </a>
-                </div>
-                <div class="post-arrow">
-                    <a href="#">&#8594; </a>
-                </div>
-            </article>
-            <article class="post-wrapper">
-                <div class="post-intro">
-                    <a href="#">
-                        <p>7 days ago</p>
-                    </a>
-                    <a href="#">
-                        <h2 class="post-title">Making Sense Of TypeScript, in 50 Lessons</h2>
-                    </a>
-                    <a href="#">
-                        <p class="post-author">Vitaly Friedman</p>
-                        <hr>
-                    </a>
-                    <a href="#">
-                        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repudiandae hic laborum, odio in esse dicta ipsam, vitae aliquid voluptates minima inventore provident porro officia maxime, pariatur veritatis natus eligendi.</h2>
-                    </a>
-                </div>
-                <div class="post-arrow">
-                    <a href="#">&#8594;</a>
-                </div>
-            </article>
-            <article class="post-wrapper">
-                <div class="post-intro">
-                    <a href="#">
-                        <p>4 days ago</p>
-                    </a>
-                    <a href="#">
-                        <h2 class="post-title"> Creating A Continuous Integration Test Workflow Using GitHub Actions
-                        </h2>
-                    </a>
-                    <a href="#">
-                        <p class="post-author">Fiyinfoluwa Akinsiku</p>
-                        <hr>
-                    </a>
-                    <a href="#">
-                        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, amet nemo id, officiis facilis sequi tempora quaerat cupiditate mollitia magnam ipsam. Corporis cum laborum commodi obcaecati inventore veniam, numquam reprehenderit?</h2>
-                    </a>
-                </div>
-                <div class="post-arrow">
-                    <a href="#">&#8594;</a>
-                </div>
-            </article>
-        </section>
-        <!-- New On Smashing TV-->
-        <Section class="smashing">
-            <article class="post-wrapper">
-                <div class="post-intro">
-                    <a href="#">
-                        <p>8 days ago</p>
-                    </a>
-                    <a href="#">
-                        <h1 class="post-title">Different Ways To Design Different Products Pages</h1>
-                    </a>
-                    <a href="#">
-                        <p class="post-author">By Senseni Scaca</p>
-                    </a>
-                    <a href="#">
-                        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi facere quis exercitationem cum nostrum ut iusto iste, corporis repudiandae quas. Qui in porro possimus ipsa odio repellat fuga reiciendis deserunt!</h2>
-                    </a>
-                </div>
-                <div class="post-arrow">
-                    <a href="#">&#8594;</a>
-                </div>
-            </article>
-            <div class="smashing-main">
-                <a href="#" class="image-link"><img src="images/singing-barista.svg" alt="singing-barista"></a>
-                <a href="#">
-                    <h1>1,699 Smashing Members</h1>
-                </a>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde eveniet id aperiam inventore natus eos cum, soluta reiciendis repudiandae esse porro iure at? Natus eius hic dolorem aperiam expedita. <a href="#">Join the community</a></h2>
-                <div class="features-link">
-                    <a href="#" class="explore">Explore Features &#8594;</a>
-                </div>
-                <p>Already have an account? <a href="#">Sign in</a></p>
+      <section class="guides flex-center">
+        <div class="guide">
+          <p class="guide p1">Lorem Ipsum</p>
+          <h2 class="guide-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!
+          </h2>
+          <p class="guide p2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
+            eligendi explicabo. In aliquam nostrum unde molestiae, voluptates
+            deserunt dolorem obcaecati debitis autem tempore asperiores eos odit
+            quas, repellat quisquam accusantium.
+          </p>
+          <button class="guide-btn">Explore Accessible Components</button>
+        </div>
+        <div class="guide">
+          <p class="guide p1">Lorem Ipsum</p>
+          <h2 class="guide-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!
+          </h2>
+          <p class="guide p2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
+            eligendi explicabo. In aliquam nostrum unde molestiae, voluptates
+            deserunt dolorem obcaecati debitis autem tempore asperiores eos odit
+            quas, repellat quisquam accusantium.
+          </p>
+          <button class="guide-btn">Explore Accessible Components</button>
+        </div>
+
+        <div class="guide">
+          <p class="guide p1">Lorem Ipsum</p>
+          <h2 class="guide-title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!
+          </h2>
+          <p class="guide p2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic,
+            eligendi explicabo. In aliquam nostrum unde molestiae, voluptates
+            deserunt dolorem obcaecati debitis autem tempore asperiores eos odit
+            quas, repellat quisquam accusantium.
+          </p>
+          <button class="guide-btn">Explore Accessible Components</button>
+        </div>
+      </section>
+      <h2><a href="" class="guides-see-all flex-center">SEE ALL GUIDES</a></h2>
+      <section class="latest-posts">
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-        </Section>
-        <!-- Table of Contents Section-->
-        <section class="main-table-contents-secton">
-            <header class="maintable-header">
-                <p class="first-contents-span">NOVEMBER 2020 • SHIPPING NOW</p>
-                <h2 class="header-table-content"><a href="#"> Meet “Click!”: Encourage Clicks <br>Without Shady
-                        Trick</a></h2>
-            </header>
-            <P class="table-contents-para"> Our new book on how to <strong>boost business KPIs</strong>, build trust and
-                address doubts effectively — without alienating people along the way. By Paul Boag.</P>
-            <a class="table-link-1" href="#">Jump to table of contents →</a>
-            <a href="#"><img class="homepage-illus" src="./images/click__homepage-illustration.svg"
-                    alt="click__homepage-illustration"></a>
-        </section>
-
-        <!-- Community Links -->
-
-        <section class="community-links">
-            <article class="person-of-week">
-                <img src="images/__k.a.n.d.y___2020.11.24_af2718.jpg" alt="" class="community-photo">
-                <div class="content">
-                    <h2>PERSON OF THE WEEK</h2>
-                    <h2> Carol Gikandi (@kandycarol) Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti magni nostrum voluptatum, officiis dolores voluptates consequuntur odit, veniam iure officia consequatur sunt id aut dicta! Eius reiciendis unde molestias distinctio!</h2>
-                </div>
-            </article>
-            <div class="communitities">
-                <article class="community-wrapper">
-                    <img src="images/__k.a.n.d.y___2020.11.24_87g5d7.jpg" alt="" class="community-photo">
-                    <div class="community">
-                        <div class="community-author">
-                            <div class="community-name">
-                                <p>Gikandi kandy</p>
-                                <small>wrote</small>
-                            </div>
-                        </div>
-                        <h1 class="community-article">Screen Readers and Data Tables</h1>
-                        <h2>November 1, 2020 — Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempore ab cupiditate laborum sunt, odit voluptatem perspiciatis rem, distinctio esse ut omnis culpa. Possimus repudiandae quibusdam nam molestiae quaerat error?</h2>
-                    </div>
-                </article>
-                <article class="community-wrapper">
-                    <img src="images/cosima-mielke-200px.jpg" alt="" class="community-photo">
-                    <div class="community">
-                        <div class="community-author">
-                            <div class="community-name">
-                                <p>Kandy Carol</p>
-                                <small>wrote</small>
-                            </div>
-                        </div>
-                    </div>
-                    <h1 class="community-article">Screen Readers and Data Tables</h1>
-                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt quisquam modi mollitia vitae
-                        in unde laborum nam sint totam ratione a, cumque quasi consectetur nisi! Officia obcaecati
-                        praesentium iusto aliquid.</h2>
-                </article>
-                <article class="community-wrapper">
-                    <img src="images/clara-buenconsejo-200x200.jpg" alt="" class="community-photo">
-                    <div class="community-author">
-                        <div class="community-name">
-                            <p>Angie Gesaka</p>
-                            <small>wrote</small>
-                        </div>
-                    </div>
-                    <h1 class="community-article">Screen Readers and Data Tables</h1>
-                    <h2>November 1, 2020 — Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis adipisci odit molestiae modi dolorum assumenda numquam eligendi soluta suscipit laboriosam est, doloribus mollitia. Non nulla quaerat aliquam id laborum repudiandae.</h2>
-                </article>
-                <article class="community-wrapper">
-                    <img src="images/__k.a.n.d.y___2020.11.23_k9glma.jpg" alt="" class="community-photo">
-                    <div class="community">
-                        <div class="community-author">
-                            <div class="community-name">
-                                <p>Monicah Juma</p>
-                                <small>wrote</small>
-                            </div>
-                        </div>
-                        <h1 class="community-article">Screen Readers and Data Tables</h1>
-                        <h2>November 1, 2020 — Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim dicta illo laboriosam! Aperiam repudiandae suscipit, facilis ex iste non? Explicabo laborum ab libero consequuntur expedita molestiae unde sint porro incidunt?</h2>
-                    </div>
-                </article>
-                <article class="community-wrapper">
-                    <img src="images/pinky.betty_2020.11.24_e19lyk.jpg" alt="" class="community-photo">
-                    <div class="community">
-                        <div class="community-author">
-                            <div class="community-name">
-                                <p>Esther Priss</p>
-                                <small>wrote</small>
-                            </div>
-                        </div>
-                        <h1 class="community-article">Screen Readers and Data Tables</h1>
-                        <h2> November 1, 2020 — Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptatibus neque vero repellendus ut, nisi eveniet sapiente, nulla tenetur aperiam eius nihil? Provident error quibusdam quidem tempora excepturi dolores possimus!</h2>
-                    </div>
-                </article>
-                <article class="community-wrapper">
-                    <img src="images/pinky.betty_2020.11.24_t73piq.jpg" alt="" class="community-photo">
-                    <div class="community">
-                        <div class="community-author">
-                            <div class="community-name">
-                                <p>Veronicah Njeri</p>
-                                <small>wrote</small>
-                            </div>
-                        </div>
-                        <h1 class="community-article">Screen Readers and Data Tables</h1>
-                        <h2>November 1, 2020 — Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, voluptatum dolorem fugit laboriosam aliquam ducimus facilis natus non quae alias corrupti? Vel quam optio nulla, maiores ea quidem illo voluptate. </h2>
-                    </div>
-                </article>
-                <article class="community-wrapper">
-                    <img src="images/pinky.betty_2020.11.24_rd7hlc.jpg" alt="" class="community-photo">
-                    <div class="community">
-                        <div class="community-author">
-                            <div class="community-name">
-                                <p>Beatrice Byb</p>
-                                <small>wrote</small>
-                            </div>
-                        </div>
-                        <h1 class="community-article">Screen Readers and Data Tables</h1>
-                        <h2>November 1, 2020 — Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus amet assumenda quo dolorem molestias iste velit eveniet fugiat molestiae incidunt suscipit, earum repellat quae illo fuga veritatis ipsum, corporis expedita. </h2>
-                    </div>
-                </article>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-        </section>
-
-        <!-- DESIGN SYSTEM SECTION -->
-        <section class="main-design-sect">
-            <div class="main-design-left">
-                <h4>FEATURED SMASHING BOOK</h4>
-                <a class="header-main-design" href="#">
-                    <h1>Design Systems</h1>
-                </a>
-                <p>Meet <strong>Design Systems</strong> , a recent Smashing book in which Alla Kholmatova explores how
-                    to set up an <strong>effective design system</strong>to create great digital products. With common
-                    traps, gotchas and lessons learned.</p>
-                <a href="#" class="btn-main-design-sect">Jump to table of contents ↬</a>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-            <div class="main-design-right">
-                <img src="./images/design-systems-hardcover-book.png" alt="design-systems-hardcover-book">
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
             </div>
-        </section>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+      </section>
 
-        <!-- Our guides section -->
-        <section class="our-guides">
-            <article class="guide">
-                <p>A SMASHING GUIDE TO</p>
-                <h1><a href="#" class="guide-link">JavaScript & Frameworks</a> </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore nesciunt corrupti expedita amet iure aliquam iusto nobis. Autem quidem possimus et maxime cupiditate nulla quas quasi exercitationem eveniet. Voluptatem!.</p>
-                <a href="#" class="guide-color1">Explore JavaScript & Frameworks</a>
-            </article>
+      <section class="community">
+        <article class="article-wrapper article1 latest-post">
+          <div class="latest-post-text">
+            <h2 class="article-title">Subscribe Ad</h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
+            </div>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+            <button class="community-btn">community button</button>
+          </div>
+        </article>
+      </section>
 
-            <article class="guide">
-                <p>A SMASHING GUIDE TO</p>
-                <h1><a href="#" class="guide-link">JavaScript & Frameworks</a> </h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate impedit at laboriosam, quibusdam eos pariatur? Dolorem dolorum tempore natus inventore nobis? Labore magni nemo illum itaque sit distinctio molestiae temporibus?</p>
-                <a href="#" class="guide-color2">Explore JavaScript & Frameworks</a>
-            </article>
+      <section class="latest-posts">
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
+            </div>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
+            </div>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
+            </div>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <article class="article-wrapper article1 latest-post">
+          <img src="images/aaron.jfif" alt="" class="photo" />
+          <div class="latest-post-text">
+            <div class="author">
+              <div class="name">
+                <h2>Carol Gikandi</h2>
+                <h3>wrote</h3>
+              </div>
+            </div>
+            <h2 class="article-title">
+              5 ways google analytics helps web developers in UI/UX design
+              <small>2 comments</small>
+            </h2>
+          </div>
+        </article>
+        <div class="guides-see-all flex-center">
+          <h2><a href="#">SEE MORE LATEST ARTICLES</a></h2>
+        </div>
+      </section>
 
-            <article class="guide">
-                <p>A SMASHING GUIDE TO</p>
-                <h1><a href="#" class="guide-link">JavaScript & Frameworks</a> </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil alias temporibus dolores minus, eos libero laudantium eius, repellat doloremque quos, expedita placeat quia omnis optio. Ullam consectetur amet harum inventore. </p>
-                <a href="#" class="guide-color3">Explore JavaScript & Frameworks</a>
-            </article>
+      <section class="workshops flex-center">
+        <p class="guide-par-1">Lorem Ipsum</p>
+        <h2 class="guide-title">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!
+        </h2>
+        <p class="guide-par-2">
+          Reliable accessible UI components: :focus styles, content sliders,
+          dark mode, date pickers, navigation, modals, radio buttons, "skip"
+          links, SVGs, tabs, tables, toggles and tooltips.
+        </p>
+        <button class="guide-btn">Explore Accessible Components</button>
+        <img
+          class="workshops-photo"
+          src="images/online-workshops-spring.svg"
+          alt=""
+        />
+      </section>
 
-            <article class="guide email-section">
-                <img src="images/ny20.png" alt="ny20">
-                <h1 class="email-link"><a href="#" class="guide-link">Email Newsletter</a> </h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ipsa molestias nisi ducimus accusamus quos facere reprehenderit sit, quibusdam cupiditate quod! Temporibus voluptatum, molestiae nulla fuga consectetur aspernatur aut eum!</p>
-                <div class="email">
-                    <form action="post">
-                        <input type="text">
-                    </form>
-                    <button type="submit">Meow!</button>
-                </div>
-                <p class="email-last">Front-end, UX and design. 1× a week. You can always unsubscribe with just 1 click.
-                </p>
-            </article>
-        </section>
+      <section class="community-links flex-center">
+				<div class="person-of-week">
+					<img class="photo person-of-week-photo" src="images/peson.jpg" alt="Person of the week">
+					<div>
+						<h2>PERSON OF THE WEEK</h2>
+						<br>
+						<br>
+						<p>Sara Soueidan (@SaraSoueidan) is an independent UI/design engineer, based in Lebanon. She works with companies and agencies around the world, building clean, responsive front-ends that are focused on accessibility, progressive enhancement, and performance. Committed to making the web platform better for everyone, Sara shares her knowledge as a speaker and author. She wrote the Codrops CSS Reference, co-authored Smashing Book 5, and was voted Developer of the Year in the 2015 net awards. Thank you for everything you do for the community, dear Sara!</p>
+					</div>
+				</div>
+				<div class="latest-posts">
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+				</div>
+			</section>
+			<div class="guides-see-all flex-center">
+				<h2><a href="#">SEE MORE LINKS ON TWITTER</a></h2>
+			</div>
+
+      <footer>
+        <div class="footer-container flex-center">
+          <div class="col-12">
+            <div class="footer__topics open">
+              <h3 class="footer__topics__title" id="topics">Browse All Smashing Magazine Topics</h3>
+              <ul class="footer__topics__list">
+                <li class="footer__topics__item"><a href="#">Accessibility</a></li>
+                <li class="footer__topics__item"><a href="#">Android</a></li>
+                <li class="footer__topics__item"><a href="#">Animation</a></li>
+                <li class="footer__topics__item"><a href="#">Apps</a></li>
+                <li class="footer__topics__item"><a href="#">CSS</a></li>
+                <li class="footer__topics__item"><a href="#">Design</a></li>
+                <li class="footer__topics__item"><a href="#">Design Patterns</a></li>
+                <li class="footer__topics__item"><a href="#">Design Systems</a></li>
+                <li class="footer__topics__item"><a href="#">E-Commerce</a></li>
+                <li class="footer__topics__item"><a href="#">Freebies</a></li>
+                <li class="footer__topics__item"><a href="#">Graphics</a></li>
+                <li class="footer__topics__item"><a href="#">HTML</a></li>
+                <li class="footer__topics__item"><a href="#">Illustrator</a></li>
+                <li class="footer__topics__item"><a href="#">Inspiration</a></li>
+                <li class="footer__topics__item"><a href="#">iOS</a></li>
+                <li class="footer__topics__item"><a href="#">JavaScript</a></li>
+                <li class="footer__topics__item"><a href="#">Mobile</a></li>
+                <li class="footer__topics__item"><a href="#">Pattern Libraries</a></li>
+                <li class="footer__topics__item"><a href="#">Performance</a></li>
+                <li class="footer__topics__item"><a href="#">Photoshop</a></li>
+                <li class="footer__topics__item"><a href="#">Plugins</a></li>
+                <li class="footer__topics__item"><a href="#">React</a></li>
+                <li class="footer__topics__item"><a href="#">Responsive Web Design</a></li>
+                <li class="footer__topics__item"><a href="#">Service Workers</a></li>
+                <li class="footer__topics__item"><a href="#">Sketch</a></li>
+                <li class="footer__topics__item"><a href="#">Typography</a></li>
+                <li class="footer__topics__item"><a href="#">UI</a></li>
+                <li class="footer__topics__item"><a href="#">Usability</a></li>
+                <li class="footer__topics__item"><a href="#">User Experience</a></li>
+                <li class="footer__topics__item"><a href="#">Wallpapers</a></li>
+                <li class="footer__topics__item"><a href="#">Web Design</a></li>
+                <li class="footer__topics__item"><a href="#">WordPress</a></li>
+                <li class="footer__topics__item"><a href="#">Workflow</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="footer__notes">
+              <p>With a commitment to quality content for the design community.</p>
+              <p>Founded by Vitaly Friedman and Sven Lennartz. <span class="lining-figures">2006–2021</span>.</p>
+              <p>Smashing is proudly running on <a href="https://www.netlify.com/?utm_source=link&amp;utm_medium=parter&amp;utm_campaign=sm-footer">Netlify</a>.</p>
+              <p>Fonts by <a href="http://latinotype.com/">Latinotype</a>.</p>
+            </div>
+            <img class="cage-photo" src="images/cage.svg" alt="Bird in cage">
+            <ul class="footer__links flex-center">
+              <li>✎ <a href="/write-for-us/">Write for us</a></li>
+              <li><a href="/contact/">Contact us</a></li>
+              <li><a href="/about/">About us (Impressum)</a></li>
+              <li><a href="/privacy-policy">Privacy policy</a></li>
+              <li><a href="/auth/">Membership login</a></li>
+              <li><a href="/delivery-times/">Delivery times</a></li>
+              <li><a href="mailto:advertising@smashingmagazine.com?">Advertise</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="back-to-top">
+          <a href="#top" data-scroll="#top" title="Back to top"><img class="photo arrow-photo" src="images/back-to-top-arrow.png" alt="Back to top arrow"></a>
+        </div>
+      </footer>
+
+
+
+
+
+
     </main>
-
-    <!-- Footer section -->
-
-    <footer class="footer">
-
-        <div class="browse">
-            <h3><small>BROWSE ALL SMASHING MAGAZINE TOPICS</small></h3>
-        </div>
-
-
-        <ul class="footer-list">
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Android</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Animation</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Apps</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">CSS</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Deisgn</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Design Patterns</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Design Systems</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">E-Commerce</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Freebies</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Graphics</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">HTML</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Illustrator</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Inspiration</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">iOS</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">JavaScript</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Mobile</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Pattern Libraries</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Performance</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Photoshop</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Plugins</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">React</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Responsive web desing</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Service Workers</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Sketch</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Typography</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">UI</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Usability</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">User Experience</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Wall Paper</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Web Design</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Word press</a>
-            </li>
-            <li>
-                <img src="images/bullet.svg" alt="bullet">
-                <a href="#">Work flow</a>
-            </li>
-        </ul>
-
-        <div class="statement">
-            <p>With a commitment to quality content for the design community.</p>
-            <P>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
-            <p>Smashing is proudly running on <a href="#">Netlify</a>.</p>
-            <p>Fonts by <a href="#">Latinotype</a>.</p>
-        </div>
-
-        <ul class="footer-links">
-            <li><a href="#">✎ Write for us</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">About us (Impressum)</a></li>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Membership login</a></li>
-            <li><a href="#">Delivery times</a></li>
-            <li><a href="#">Advertise</a></li>
-        </ul>
-        <div class="cat">
-            <img src="images/cat-the-behemoth.svg" alt="cat">
-        </div>
-        <div class="laptop">
-            <img src="images/laptop__left.svg" alt="laptop">
-        </div>
-    </footer>
-    <a href="#" class="back-to-top">
-        <span class="iconify" data-icon="dashicons:arrow-up-alt2" data-inline="false"></span>
-    </a>
-</body>
+  </body>
 </html>
