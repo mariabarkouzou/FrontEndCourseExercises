@@ -198,7 +198,7 @@ a,
 }
 
 .photo {
-  border: solid white;
+  border: solid rgb(85, 82, 82);
   border-radius: 8px;
   width: 75px;
   height: 75px;
