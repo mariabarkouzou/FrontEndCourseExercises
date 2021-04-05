@@ -120,7 +120,7 @@ ul {
 }
 
 #search-bar {
-	background-image: url(images/search-icon.svg);
+	background-image: url(../images/search-icon.svg);
 	background-repeat: no-repeat;
 	background-size: 22px auto;
 	background-position: 0.75em 50%;
