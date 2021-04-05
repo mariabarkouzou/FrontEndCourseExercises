@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Smashing Magazine website clone" />
+		<title>Smashing Magazine - For Web Designers and Developers</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+	</head>
+
+	<body>
+		<h1>Smashing Magazine home page</h1>
+		<!-- HEADER SECTION -->
+		<header class="main-header" id="top">
+			<!-- NAVBAR -->
+			<nav class="primary-nav">
+				<div class="main-logo">
+					<a href="#">
+						<img class="img-logo" src="images/logo.svg" alt="Smashing Magazine Logo" />
+					</a>
+				</div>
+				<ul class="main-nav-links">
+					<li><a class="nav-links" href="#">Articles</a></li>
+					<li><a class="nav-links" href="#">Guides</a></li>
+					<li><a class="nav-links" href="#">Books</a></li>
+					<li><a class="nav-links" href="#">Events</a></li>
+					<li><a class="nav-links" href="#">Membership</a></li>
+					<li><a class="nav-links" href="#">Job Board</a></li>
+					<li>
+						<a class="btn-nav-links flex-center" href="#">
+							More
+							<img src="images/menu-cat.svg" alt="menu-cat" />
+						</a>
+					</li>
+
+					<li class="search-bar">
+						<form class="search-input-main" action="#">
+							<!-- <label for="search-bar" aria-label="Search bar" title="search bar"></label> -->
+							<input type="search" name="search-bar" placeholder="Search Articles..." id="search-bar" aria-label="Search bar" title="search bar" />
+						</form>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- LATEST ARTICLES SECTION -->
+
+		<main>
+			<section class="latest-articles">
+				<div class="articles">
+					<article class="article-wrapper article1">
+						<div class="author">
+							<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title article-top-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</article>
+
+					<article class="article-wrapper article2">
+						<div class="author">
+							<img src="images/aaron.jfif" alt="" class="photo" />
+							<div class="name">
+								<h2>John Smith</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">What A Time To Be Smashing!: Tales form October (2020 Wall Papers Editions) <small>2 comments</small></h2>
+					</article>
+
+					<article class="article-wrapper article3">
+						<div class="author">
+							<img src="images/aaron.jfif" alt="" class="photo" />
+							<div class="name">
+								<h2>Mary Peter</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">Unit Testing in React Native Applications <small>2 comments</small></h2>
+					</article>
+				</div>
+
+				<div class="article-wrapper newsletter">
+					<h2>Email Newsletter</h2>
+				</div>
+			</section>
+
+			<section class="guides flex-center">
+				<div class="guide">
+					<p class="guide-par-1">Lorem Ipsum</p>
+					<h2 class="guide-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!</h2>
+					<p class="guide-par-2">
+						Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons, “skip” links, SVGs, tabs, tables, toggles and
+						tooltips.
+					</p>
+					<button class="guide-btn">Explore Accessible Components</button>
+				</div>
+				<div class="guide">
+					<p class="guide-par-1">Lorem Ipsum</p>
+					<h2 class="guide-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!</h2>
+					<p class="guide-par-2">
+						Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons, “skip” links, SVGs, tabs, tables, toggles and
+						tooltips.
+					</p>
+					<button class="guide-btn">Explore Accessible Components</button>
+				</div>
+				<div class="guide">
+					<p class="guide-par-1">Lorem Ipsum</p>
+					<h2 class="guide-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!</h2>
+					<p class="guide-par-2">
+						Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons, “skip” links, SVGs, tabs, tables, toggles and
+						tooltips.
+					</p>
+					<button class="guide-btn">Explore Accessible Components</button>
+				</div>
+			</section>
+
+			<div class="guides-see-all flex-center">
+				<h2><a href="#">SEE ALL GUIDES</a></h2>
+			</div>
+
+			<section class="latest-posts">
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+			</section>
+
+			<section class="community">
+				<article class="article-wrapper latest-post">
+					<div class="latest-post-text">
+						<h2 class="article-title">Subscribe Ad</h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post community-2">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						<button class="community-btn">community button</button>
+					</div>
+				</article>
+			</section>
+
+			<section class="latest-posts">
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+
+				<article class="article-wrapper latest-post">
+					<img src="images/aaron.jfif" alt="Someone's photo" class="photo" />
+					<div class="latest-post-text">
+						<div class="author">
+							<div class="name">
+								<h2>Carol Gikandi</h2>
+								<h3>wrote</h3>
+							</div>
+						</div>
+						<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+					</div>
+				</article>
+			</section>
+
+			<div class="guides-see-all flex-center">
+				<h2><a href="#">SEE MORE LATEST ARTICLES</a></h2>
+			</div>
+
+			<section class="workshops flex-center">
+				<p class="guide-par-1">Lorem Ipsum</p>
+				<h2 class="guide-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, neque!</h2>
+				<p class="guide-par-2">
+					Reliable accessible UI components: :focus styles, content sliders, dark mode, date pickers, navigation, modals, radio buttons, “skip” links, SVGs, tabs, tables, toggles and
+					tooltips.
+				</p>
+				<button class="guide-btn workshops-btn">Explore Accessible Components</button>
+
+				<img class="workshops-photo" src="images/online-workshops-spring.svg" alt="" />
+			</section>
+
+			<section class="community-links flex-center">
+				<div class="person-of-week">
+					<img class="photo person-of-week-photo" src="images/peson.jpg" alt="Photo of person of the week" />
+					<div>
+						<h2>PERSON OF THE WEEK</h2>
+						<br />
+						<br />
+						<p>
+							Sara Soueidan (@SaraSoueidan) is an independent UI/design engineer, based in Lebanon. She works with companies and agencies around the world, building clean, responsive
+							front-ends that are focused on accessibility, progressive enhancement, and performance. Committed to making the web platform better for everyone, Sara shares her knowledge
+							as a speaker and author. She wrote the Codrops CSS Reference, co-authored Smashing Book 5, and was voted Developer of the Year in the 2015 net awards. Thank you for
+							everything you do for the community, dear Sara!
+						</p>
+					</div>
+				</div>
+
+				<div class="latest-posts">
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+
+					<article class="article-wrapper article1 latest-post">
+						<img src="images/aaron.jfif" alt="" class="photo" />
+						<div class="latest-post-text">
+							<div class="author">
+								<div class="name">
+									<h2>Carol Gikandi</h2>
+									<h3>wrote</h3>
+								</div>
+							</div>
+							<h2 class="article-title">5 ways google analytics helps web developers in UI/UX design <small>2 comments</small></h2>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<div class="guides-see-all flex-center">
+				<h2><a href="#">SEE MORE LINKS ON TWITTER</a></h2>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footer-container flex-center">
+				<div class="col-12">
+					<div class="footer__topics open">
+						<h3 class="footer__topics__title" id="topics">Browse All Smashing Magazine Topics</h3>
+						<ul class="footer__topics__list">
+							<li class="footer__topics__item"><a href="#">Accessibility</a></li>
+							<li class="footer__topics__item"><a href="#">Android</a></li>
+							<li class="footer__topics__item"><a href="#">Animation</a></li>
+							<li class="footer__topics__item"><a href="#">Apps</a></li>
+							<li class="footer__topics__item"><a href="#">CSS</a></li>
+							<li class="footer__topics__item"><a href="#">Design</a></li>
+							<li class="footer__topics__item"><a href="#">Design Patterns</a></li>
+							<li class="footer__topics__item"><a href="#">Design Systems</a></li>
+							<li class="footer__topics__item"><a href="#">E-Commerce</a></li>
+							<li class="footer__topics__item"><a href="#">Freebies</a></li>
+							<li class="footer__topics__item"><a href="#">Graphics</a></li>
+							<li class="footer__topics__item"><a href="#">HTML</a></li>
+							<li class="footer__topics__item"><a href="#">Illustrator</a></li>
+							<li class="footer__topics__item"><a href="#">Inspiration</a></li>
+							<li class="footer__topics__item"><a href="#">iOS</a></li>
+							<li class="footer__topics__item"><a href="#">JavaScript</a></li>
+							<li class="footer__topics__item"><a href="#">Mobile</a></li>
+							<li class="footer__topics__item"><a href="#">Pattern Libraries</a></li>
+							<li class="footer__topics__item"><a href="#">Performance</a></li>
+							<li class="footer__topics__item"><a href="#">Photoshop</a></li>
+							<li class="footer__topics__item"><a href="#">Plugins</a></li>
+							<li class="footer__topics__item"><a href="#">React</a></li>
+							<li class="footer__topics__item"><a href="#">Responsive Web Design</a></li>
+							<li class="footer__topics__item"><a href="#">Service Workers</a></li>
+							<li class="footer__topics__item"><a href="#">Sketch</a></li>
+							<li class="footer__topics__item"><a href="#">Typography</a></li>
+							<li class="footer__topics__item"><a href="#">UI</a></li>
+							<li class="footer__topics__item"><a href="#">Usability</a></li>
+							<li class="footer__topics__item"><a href="#">User Experience</a></li>
+							<li class="footer__topics__item"><a href="#">Wallpapers</a></li>
+							<li class="footer__topics__item"><a href="#">Web Design</a></li>
+							<li class="footer__topics__item"><a href="#">WordPress</a></li>
+							<li class="footer__topics__item"><a href="#">Workflow</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="footer__notes">
+						<p>With a commitment to quality content for the design community.</p>
+						<p>Founded by Vitaly Friedman and Sven Lennartz. <span class="lining-figures">2006–2021</span>.</p>
+						<p>Smashing is proudly running on <a href="https://www.netlify.com/?utm_source=link&amp;utm_medium=parter&amp;utm_campaign=sm-footer">Netlify</a>.</p>
+						<p>Fonts by <a href="http://latinotype.com/">Latinotype</a>.</p>
+					</div>
+					<img class="cage-photo" src="images/cage.svg" alt="Bird in cage" />
+					<ul class="footer__links flex-center">
+						<li>✎ <a href="/write-for-us/">Write for us</a></li>
+						<li><a href="/contact/">Contact us</a></li>
+						<li><a href="/about/">About us (Impressum)</a></li>
+						<li><a href="/privacy-policy">Privacy policy</a></li>
+						<li><a href="/auth/">Membership login</a></li>
+						<li><a href="/delivery-times/">Delivery times</a></li>
+						<li><a href="mailto:advertising@smashingmagazine.com">Advertise</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="back-to-top">
+				<a href="#top" data-scroll="#top" title="Back to top"><img class="photo arrow-photo" src="images/back-to-top-arrow.png" alt="Back to top arrow" /></a>
+			</div>
+		</footer>
+	</body>
+</html>
