@@ -28,6 +28,6 @@ header {
 }
 
 li:hover {
-  color: #f72210;
+  color: #f72210 !important;
 }
 
