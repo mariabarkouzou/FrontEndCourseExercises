@@ -14,11 +14,6 @@
   background-color: #f72210;
 }
 
-header {
-  width: 1310px;
-  margin: auto;
-}
-
 .nav-item {
   cursor: pointer;
 }
