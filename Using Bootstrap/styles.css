@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 400px;
+}
+
+.logo path,
+.logo-sticky-nav path {
+  fill: white;
+}
+
+.top-header {
+  background-color: #f72210;
+}
+
+.login {
+  background-color: #f72210;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+li:hover {
+  color: #f72210 !important;
+}
+
+.debate-p {
+  font-size: 0.7rem;
+}
+
+.us1-h {
+  color: #f72210;
+}
+
+.nw-logo-footer path {
+  fill: #f72210;
+}
+
+.social-links {
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: rgb(63, 63, 187);
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+.footer-nav1 li:hover {
+  color: black !important;
+}
+
+.footer-nav2 li:hover {
+  color: black !important;
+}
+
+.logo-image{
+  width: 30px;
+}
+
+.sticky-nav {
+  bottom: -100px;
+
+}
+
+.logo-sticky-nav {
+  width: 100px;
+}
+
+header {
+  z-index: 100;
+}
