@@ -1,8 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .logo {
   width: 400px;
 }
 
-.logo path {
+.logo path,
+.logo-sticky-nav path {
   fill: white;
 }
 
@@ -25,6 +32,7 @@
 li:hover {
   color: #f72210 !important;
 }
+
 .debate-p {
   font-size: 0.7rem;
 }
@@ -55,4 +63,21 @@ li:hover {
 
 .footer-nav2 li:hover {
   color: black !important;
+}
+
+.logo-image{
+  width: 30px;
+}
+
+.sticky-nav {
+  bottom: -100px;
+
+}
+
+.logo-sticky-nav {
+  width: 100px;
+}
+
+header {
+  z-index: 100;
 }
