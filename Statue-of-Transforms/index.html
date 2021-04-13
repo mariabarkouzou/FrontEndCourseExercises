@@ -1,89 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body {
-            background: lightgray;
-            display: grid;
-            place-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background: white;
-            border: 1px solid gray;
-            width: 640px;
-            height: 480px;
-            font-size: 0;
-        }
-        img {
-            box-sizing: border-box;
-            border: 1px solid #666;
-            margin: 0;
-            width: 160px;
-            height: 120px;
-        }
-        /* SOLUTION: CODE STARTS HERE >> */
-        /* << SOLUTION: CODE ENDS HERE */
-    </style>
-</head>
-<body>
+      body {
+        background: lightgray;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        background: white;
+        border: 1px solid gray;
+        width: 640px;
+        height: 480px;
+        font-size: 0;
+      }
+      img {
+        box-sizing: border-box;
+        border: 1px solid #666;
+        margin: 0;
+        width: 160px;
+        height: 120px;
+      }
+      /* SOLUTION: CODE STARTS HERE >> */
 
+      #a2 {
+        transform: translateY(-120px);
+      }
+      #a4 {
+        transform: translate(160px, -360px);
+      }
+
+      #b2 {
+        transform: rotate(-180deg) translateY(-120px);
+      }
+
+      #b3 {
+        transform: rotate(-180deg);
+      }
+      #b4 {
+        transform: translateY(-120px);
+      }
+      #c1 {
+        transform: translate(-480px, 120px);
+      }
+      #c2 {
+        transform: translateX(160px);
+      }
+      #c3 {
+        transform: translateX(160px);
+      }
+      #c4 {
+        transform: translateX(160px);
+      }
+
+      #d3 {
+        transform: translateX(-160px);
+      }
+      #d4 {
+        transform: translateY(360px);
+      }
+
+      /* << SOLUTION: CODE ENDS HERE */
+    </style>
+  </head>
+  <body>
     <!-- Original -->
     <p>
-        Dimensions of the board: <strong>640 x 480</strong> pixels<br>
-        Dimensions of each board piece: <strong>160 x 120</strong> pixels
+      Dimensions of the board: <strong>640 x 480</strong> pixels<br />
+      Dimensions of each board piece: <strong>160 x 120</strong> pixels
     </p>
     <div class="container">
+      <img src="./img/A1.jpg" />
+      <img src="./img/A2.jpg" />
+      <img src="./img/A3.jpg" />
+      <img src="./img/A4.jpg" />
 
-        <img src="./img/A1.jpg">
-        <img src="./img/A2.jpg">
-        <img src="./img/A3.jpg">
-        <img src="./img/A4.jpg">
-        
-        <img src="./img/B1.jpg">
-        <img src="./img/B2.original.jpg">
-        <img src="./img/B3.original.jpg">
-        <img src="./img/B4.jpg">
-        
-        <img src="./img/C1.jpg">
-        <img src="./img/C2.jpg">
-        <img src="./img/C3.jpg">
-        <img src="./img/C4.jpg">
-        
-        <img src="./img/D1.jpg">
-        <img src="./img/D2.jpg">
-        <img src="./img/D3.jpg">
-        <img src="./img/D4.jpg">
+      <img src="./img/B1.jpg" />
+      <img src="./img/B2.original.jpg" />
+      <img src="./img/B3.original.jpg" />
+      <img src="./img/B4.jpg" />
 
+      <img src="./img/C1.jpg" />
+      <img src="./img/C2.jpg" />
+      <img src="./img/C3.jpg" />
+      <img src="./img/C4.jpg" />
+
+      <img src="./img/D1.jpg" />
+      <img src="./img/D2.jpg" />
+      <img src="./img/D3.jpg" />
+      <img src="./img/D4.jpg" />
     </div>
 
     <!-- Fix this using CSS Transforms only: DO NOT CHANGE THE HTML CODE! -->
     <div class="container">
+      <img id="a1" src="./img/A1.jpg" />
+      <img id="b2" src="./img/B2.jpg" />
+      <img id="a3" src="./img/A3.jpg" />
+      <img id="d4" src="./img/D4.jpg" />
 
-        <img id="a1" src="./img/A1.jpg">
-        <img id="b2" src="./img/B2.jpg">
-        <img id="a3" src="./img/A3.jpg">
-        <img id="d4" src="./img/D4.jpg">
-        
-        <img id="b1" src="./img/B1.jpg">
-        <img id="a2" src="./img/A2.jpg">
-        <img id="b3" src="./img/B3.jpg">
-        <img id="c1" src="./img/C1.jpg">
-        
-        <img id="c2" src="./img/C2.jpg">
-        <img id="c3" src="./img/C3.jpg">
-        <img id="c4" src="./img/C4.jpg">
-        <img id="b4" src="./img/B4.jpg">
+      <img id="b1" src="./img/B1.jpg" />
+      <img id="a2" src="./img/A2.jpg" />
+      <img id="b3" src="./img/B3.jpg" />
+      <img id="c1" src="./img/C1.jpg" />
 
-        <img id="d1" src="./img/D1.jpg">
-        <img id="d2" src="./img/D2.jpg">
-        <img id="a4" src="./img/A4.jpg">
-        <img id="d3" src="./img/D3.jpg">
+      <img id="c2" src="./img/C2.jpg" />
+      <img id="c3" src="./img/C3.jpg" />
+      <img id="c4" src="./img/C4.jpg" />
+      <img id="b4" src="./img/B4.jpg" />
 
+      <img id="d1" src="./img/D1.jpg" />
+      <img id="d2" src="./img/D2.jpg" />
+      <img id="a4" src="./img/A4.jpg" />
+      <img id="d3" src="./img/D3.jpg" />
     </div>
-</body>
+  </body>
 </html>
