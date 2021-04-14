@@ -1,6 +1,210 @@
-@import "_variables.scss";
-/*# sourceMappingURL=styles.css.map */
-
 * {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+
+.container-medium {
+  max-width: 60%;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+
+.container-large {
+  max-width: 80%;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+
+.container-xxl {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+
+.container-full {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (60px)[12];
+      grid-template-columns: repeat(12, 60px);
+  -ms-grid-columns: (60px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 60px);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 20px;
+  border: 2px solid magenta;
+}
+
+.column {
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.font-p {
+  font-size: 1rem;
+}
+
+.font-h3 {
+  font-size: 1.17rem;
+}
+
+.font-h2 {
+  font-size: 1.5rem;
+}
+
+.font-h1 {
+  font-size: 2rem;
+}
+
+.justify-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 0.8em;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
