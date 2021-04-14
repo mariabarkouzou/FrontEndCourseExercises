@@ -1,4 +1,6 @@
-p {
-  font-size: 10px;
-}
+@import "_variables.scss";
 /*# sourceMappingURL=styles.css.map */
+
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
