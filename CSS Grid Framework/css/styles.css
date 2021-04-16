@@ -283,6 +283,10 @@ h6 {
   padding-bottom: 3em;
 }
 
+.pb-img {
+  padding-bottom: 22px;
+}
+
 .color-white {
   color: white;
 }
@@ -342,6 +346,10 @@ h6 {
 
 .text-none {
   text-decoration: none;
+}
+
+.hover:hover {
+  color: #900;
 }
 
 header {

@@ -224,6 +224,10 @@
   @include paddingBottom(3em);
 }
 
+.pb-img {
+  @include paddingBottom(22px);
+}
+
 // colors
 @mixin color($color) {
   color: $color;
@@ -287,4 +291,10 @@
 
 .text-none {
   text-decoration: none;
+}
+
+.hover {
+  &:hover {
+    color: $hoverColor;
+  }
 }
