@@ -103,8 +103,8 @@
   font-size: $fontSize;
 }
 
-.font-p-sm{
-	@include fontSize(0.8rem);
+.font-p-sm {
+  @include fontSize(0.8rem);
 }
 
 .font-p {
@@ -279,4 +279,8 @@
 
 .flex-column {
   flex-direction: column;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

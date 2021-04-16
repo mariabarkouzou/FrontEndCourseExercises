@@ -336,6 +336,10 @@ h6 {
           flex-direction: column;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 header {
   background-color: #333;
 }
@@ -365,9 +369,7 @@ footer ul li a,
 footer h3,
 footer p {
   color: white;
-  text-decoration: none;
 }
-
 
 .f-wrap {
   -ms-flex-wrap: wrap;
