@@ -365,6 +365,11 @@ footer ul li a,
 footer h3,
 footer p {
   color: white;
+  text-decoration: none;
+}
+
+footer ul li a{
+
 }
 
 .f-wrap {
