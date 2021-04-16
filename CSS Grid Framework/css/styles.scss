@@ -4,24 +4,24 @@
 
 //header
 header {
-	background-color: $grey-brownColor;
+  background-color: $grey-brownColor;
 }
 
 header ul {
-	list-style: none;
+  list-style: none;
 
-	li {
-		padding: 0.8em;
+  li {
+    padding: 0.8em;
 
-		a {
-			text-decoration: none;
-			color: $whiteColor;
-		}
-	}
+    a {
+      text-decoration: none;
+      color: $whiteColor;
+    }
+  }
 }
 
 header ul li:hover {
-	background-color: $footerColor;
+  background-color: $footerColor;
 }
 
 // middle-section
@@ -32,11 +32,18 @@ header ul li:hover {
 
 // footer
 footer {
-	background-color: $footerColor;
+  background-color: $footerColor;
 }
 
 footer ul li a,
 footer h3,
 footer p {
-	color: $whiteColor;
+  color: $whiteColor;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+.f-wrap {
+  flex-wrap: wrap;
 }
