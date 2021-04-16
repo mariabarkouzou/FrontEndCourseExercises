@@ -1,211 +1,42 @@
-@import "_variables";
+@import "./variables";
+@import "./cssReset";
+@import "./general-classes";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-/* CSS reset */
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-fieldset,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
-  margin: 0;
-  padding: 0;
-}
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-ol,
-ul {
-  list-style: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
-@mixin containerProps($max-width) {
-  max-width: $max-width;
-  margin: 0 auto;
-  // display: flex;
-  // flex-direction: column;
-  // flex-wrap: wrap;
-  border: 2px solid blue;
-}
-
-.container {
-  @include containerProps(960px);
-}
-
-// .container-small {
-// }
-.container-medium {
-  @include containerProps($medium);
-}
-.container-large {
-  @include containerProps($large);
-}
-.container-xxl {
-  @include containerProps($xxl);
-}
-.container-full {
-  @include containerProps($full);
-}
-
-.row {
-  // width: 100%;
-  display: grid;
-  // grid-template-columns: repeat(12, 1fr);
-  grid-template-columns: repeat(12, 60px);
-  // grid-template-columns: 200px 3em;
-  // grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
-  grid-template-columns: repeat(auto-fit, 60px);
-  grid-template-rows: 1fr;
-  // grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
-  gap: 20px;
-  border: 2px solid magenta;
-}
-
-.column {
-  text-align: center;
-  background-color: yellowgreen;
-}
-
-@mixin columnSpan($spanNumber) {
-  grid-column: span $spanNumber;
-}
-
-.col-1 {
-  @include columnSpan(1);
-}
-.col-2 {
-  @include columnSpan(2);
-}
-.col-3 {
-  @include columnSpan(3);
-}
-.col-4 {
-  @include columnSpan(4);
-}
-.col-5 {
-  @include columnSpan(5);
-}
-.col-6 {
-  @include columnSpan(6);
-}
-.col-7 {
-  @include columnSpan(7);
-}
-.col-8 {
-  @include columnSpan(8);
-}
-.col-9 {
-  @include columnSpan(9);
-}
-.col-10 {
-  @include columnSpan(10);
-}
-.col-11 {
-  @include columnSpan(11);
-}
-.col-12 {
-  @include columnSpan(12);
-}
-
-// font size
-@mixin fontSize($fontSize) {
-  font-size: $fontSize;
-}
-.font-p {
-  @include fontSize(1rem);
-}
-.font-h3 {
-  @include fontSize(1.17rem);
-}
-.font-h2 {
-  @include fontSize(1.5rem);
-}
-.font-h1 {
-  @include fontSize(2rem);
-}
-
-@mixin justifyContentProp($justifyContentProperty) {
-  display: flex;
-  justify-content: $justifyContentProperty;
-}
-
-.justify-center {
-  @include justifyContentProp(center);
-}
-
-.justify-end {
-  @include justifyContentProp(flex-end);
-}
-
-.align-center {
-  display: flex;
-  align-items: center;
-}
-
-//navbar
-
+//header
 header {
-  background-color: $secondColor;
+	background-color: $grey-brownColor;
 }
 
-ul {
-  list-style: none;
+header ul {
+	list-style: none;
 
-  li {
-    padding: 0.8em;
+	li {
+		padding: 0.8em;
 
-    a {
-      text-decoration: none;
-      color: $firstColor;
-    }
-  }
+		a {
+			text-decoration: none;
+			color: $whiteColor;
+		}
+	}
 }
 
+header ul li:hover {
+	background-color: $footerColor;
+}
+
+// middle-section
+// .middle-section p {
+// 	color: $thirdColor;
+// 	font-size: 0.8rem;
+// }
+
+// footer
 footer {
-  background-color: $footerColor;
+	background-color: $footerColor;
 }
 
 footer ul li a,
 footer h3,
 footer p {
-  color: $firstColor;
-}
-
-.middle-section p {
-  color: $thirdColor;
-  font-size: 0.8rem;
+	color: $whiteColor;
 }
