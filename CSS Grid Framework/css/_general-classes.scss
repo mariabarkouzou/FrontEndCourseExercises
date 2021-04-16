@@ -298,3 +298,9 @@
     color: $hoverColor;
   }
 }
+
+.hover-f {
+  &:hover {
+    color: $light-grey;
+  }
+}

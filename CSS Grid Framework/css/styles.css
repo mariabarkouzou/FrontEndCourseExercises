@@ -352,6 +352,10 @@ h6 {
   color: #900;
 }
 
+.hover-f:hover {
+  color: #EEEEEE;
+}
+
 header {
   background-color: #333;
 }
