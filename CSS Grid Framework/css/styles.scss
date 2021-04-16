@@ -40,6 +40,9 @@ footer h3,
 footer p {
   color: $whiteColor;
 }
+footer ul li a{
+  text-decoration: none;
+}
 
 .f-wrap {
   flex-wrap: wrap;
