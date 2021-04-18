@@ -356,6 +356,18 @@ h6 {
   color: #EEEEEE;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
 header {
   background-color: #333;
 }
