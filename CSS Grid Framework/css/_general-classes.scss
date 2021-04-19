@@ -1,0 +1,314 @@
+@mixin containerProps($max-width) {
+  max-width: $max-width;
+  margin: 0 auto;
+  // border: 2px solid blue;
+}
+
+.container {
+  @include containerProps(960px);
+}
+// .container-small {
+// }
+// .container-medium {
+// 	@include containerProps($medium);
+// }
+// .container-large {
+// 	@include containerProps($large);
+// }
+// .container-xxl {
+// 	@include containerProps($xxl);
+// }
+// .container-full {
+// 	@include containerProps($full);
+// }
+
+.row {
+  // width: 100%;
+  display: grid;
+  // grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 60px);
+  // grid-template-columns: 200px 3em;
+  // grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  grid-template-columns: repeat(auto-fit, 60px);
+  grid-template-rows: 1fr;
+  gap: 20px;
+  // grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
+  // border: 2px solid magenta;
+}
+
+@mixin gap($gapSize) {
+  gap: $gapSize;
+}
+
+.gap-10 {
+  @include gap(10px);
+}
+
+.gap-20 {
+  @include gap(20px);
+}
+
+.gap-5 {
+  @include gap(5px);
+}
+
+.column {
+  text-align: center;
+  // background-color: yellowgreen;
+}
+
+@mixin columnSpan($spanNumber) {
+  grid-column: span $spanNumber;
+}
+
+.col-1 {
+  @include columnSpan(1);
+}
+.col-2 {
+  @include columnSpan(2);
+}
+.col-3 {
+  @include columnSpan(3);
+}
+.col-4 {
+  @include columnSpan(4);
+}
+.col-5 {
+  @include columnSpan(5);
+}
+.col-6 {
+  @include columnSpan(6);
+}
+.col-7 {
+  @include columnSpan(7);
+}
+.col-8 {
+  @include columnSpan(8);
+}
+.col-9 {
+  @include columnSpan(9);
+}
+.col-10 {
+  @include columnSpan(10);
+}
+.col-11 {
+  @include columnSpan(11);
+}
+.col-12 {
+  @include columnSpan(12);
+}
+
+// font size
+@mixin fontSize($fontSize) {
+  font-size: $fontSize;
+}
+
+.font-p-sm {
+  @include fontSize(0.8rem);
+}
+
+.font-p {
+  @include fontSize(1rem);
+}
+.font-h3 {
+  @include fontSize(1.17rem);
+}
+.font-h2 {
+  @include fontSize(1.5rem);
+}
+.font-h1 {
+  @include fontSize(2rem);
+}
+
+@mixin fontWeight($fontWeight) {
+  font-weight: $fontWeight;
+}
+.fw-400 {
+  @include fontWeight(400);
+}
+.fw-500 {
+  @include fontWeight(500);
+}
+.fw-700 {
+  @include fontWeight(700);
+}
+.fw-900 {
+  @include fontWeight(900);
+}
+
+// justify content
+@mixin justifyContentProp($justifyContentProperty) {
+  display: flex;
+  justify-content: $justifyContentProperty;
+}
+
+.justify-start {
+  @include justifyContentProp(flex-start);
+}
+.justify-center {
+  @include justifyContentProp(center);
+}
+
+.justify-end {
+  @include justifyContentProp(flex-end);
+}
+
+// align-items
+@mixin alignItemsProp($alignItemsProperty) {
+  display: flex;
+  align-items: $alignItemsProperty;
+}
+.align-center {
+  @include alignItemsProp(center);
+}
+.align-start {
+  @include alignItemsProp(flex-start);
+}
+.align-end {
+  @include alignItemsProp(flex-end);
+}
+.align-baseline {
+  @include alignItemsProp(baseline);
+}
+
+// margin & padding
+@mixin padding($padding) {
+  padding: $padding;
+}
+.p-1 {
+  @include padding(1em);
+}
+.p-2 {
+  @include padding(2em);
+}
+.p-3 {
+  @include padding(3em);
+}
+
+@mixin paddingTop($paddingTopValue) {
+  padding-top: $paddingTopValue;
+}
+.pt-1 {
+  @include paddingTop(1em);
+}
+.pt-2 {
+  @include paddingTop(2em);
+}
+.pt-3 {
+  @include paddingTop(3em);
+}
+
+@mixin paddingLeft($paddingLeftValue) {
+  padding-left: $paddingLeftValue;
+}
+.pl-1 {
+  @include paddingLeft(1em);
+}
+.pl-2 {
+  @include paddingLeft(2em);
+}
+.pl-3 {
+  @include paddingLeft(3em);
+}
+
+@mixin paddingBottom($paddingBottomValue) {
+  padding-bottom: $paddingBottomValue;
+}
+.pb-1 {
+  @include paddingBottom(1em);
+}
+.pb-2 {
+  @include paddingBottom(2em);
+}
+.pb-3 {
+  @include paddingBottom(3em);
+}
+
+.pb-img {
+  @include paddingBottom(22px);
+}
+
+// colors
+@mixin color($color) {
+  color: $color;
+}
+.color-white {
+  @include color($whiteColor);
+}
+.color-grey-brown {
+  @include color($grey-brownColor);
+}
+.color-blue {
+  @include color($blueColor);
+}
+
+// background colors
+@mixin bgColor($bgColor) {
+  background-color: $bgColor;
+}
+.bg-white {
+  @include bgColor($whiteColor);
+}
+.bg-grey-brown {
+  @include bgColor($grey-brownColor);
+}
+.bg-blue {
+  @include bgColor($blueColor);
+}
+
+.bg-light-gray {
+  @include bgColor($light-grey);
+}
+
+// images
+.img-fluid {
+  width: 100%;
+  // height: auto;
+  height: 220px;
+  object-fit: cover;
+  margin: 0.5em;
+}
+
+@mixin imgWidth($width) {
+  width: $width;
+}
+
+.w-118 {
+  @include imgWidth(118px);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.hover {
+  &:hover {
+    color: $hoverColor;
+  }
+}
+
+.hover-f {
+  &:hover {
+    color: $footerHover;
+  }
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}

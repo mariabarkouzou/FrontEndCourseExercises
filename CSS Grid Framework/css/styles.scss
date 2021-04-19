@@ -1,0 +1,50 @@
+@import "./variables";
+@import "./cssReset";
+@import "./general-classes";
+
+//header
+header {
+  background-color: $grey-brownColor;
+}
+
+header ul {
+  list-style: none;
+
+  li {
+    padding: 0.8em;
+
+    a {
+      text-decoration: none;
+      color: $whiteColor;
+    }
+  }
+}
+
+header ul li:hover {
+  background-color: $footerColor;
+}
+
+// middle-section
+// .middle-section p {
+// 	color: $thirdColor;
+// 	font-size: 0.8rem;
+// }
+
+// footer
+footer {
+  background-color: $footerColor;
+}
+
+footer ul li a,
+footer h3,
+footer p {
+  color: $whiteColor;
+}
+footer ul li a{
+  text-decoration: none;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
