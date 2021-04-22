@@ -5,7 +5,7 @@ function Account(name, surname) {
   Account.ibanCode++;
   this.balance = 0;
   this.info = function () {
-    return `New account created for ${name} ${surname}, IBAN: ${this.ibanCode}`;
+    return `New account created for ${name} ${surname}, IBAN:GR0000${this.ibanCode}`;
   };
 }
 
