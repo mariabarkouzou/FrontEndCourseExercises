@@ -1,13 +1,15 @@
 function Account(name, surname) {
   this.name = name;
   this.surname = surname;
-  let number = Math.random() * 100000;
-  let ibanCode = `GR0000${Math.round(number)}`;
+  this.ibanCode = Account.ibanCode;
+  Account.ibanCode++;
   this.balance = 0;
   this.info = function () {
-    return `New account created for ${name} ${surname}, IBAN: ${ibanCode}`;
+    return `New account created for ${name} ${surname}, IBAN: ${this.ibanCode}`;
   };
 }
+
+Account.ibanCode = 1; 
 
 Account.prototype.getBalance = function () {
   return this.balance;
