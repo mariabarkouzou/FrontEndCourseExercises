@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #77b3d4;
+  }
+  /*Header*/
+  
+  h1,
+  span {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+  }
+  
+  #li {
+    color: rgb(209, 41, 125);
+    font-style: normal;
+    font-style: italic;
+    font-size: 45px;
+  }
+  
+  .header {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dotted white;
+  }
+  
+  img {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  /*Container*/
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(61, 60, 60);
+    font-size: 30px;
+    margin-top: 70px;
+  }
+  
+  .submit {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(248, 156, 123);
+    color: rgb(59, 59, 57);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgb(209, 187, 179);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .author,
+  .book,
+  .pages,
+  .status {
+    height: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  /*List of Books*/
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 80px;
+    color: rgb(59, 59, 57);
+    font-size: 30px;
+  }
+  
+  .delete {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  table,
+  th,
+  td {
+    text-align: center;
+    background-color: rgb(59, 59, 57);
+    color: white;
+    border: 1px dotted white;
+  }
+  
+  th {
+    color: #77b3d4;
+    font-size: 30px;
+  }
+  
+  .status-button {
+    background-color: #77b3d4;
+    color: rgb(59, 59, 57);
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }

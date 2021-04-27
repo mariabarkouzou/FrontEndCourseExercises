@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Library App" />
+    <link rel="icon" href="images/icon.png" type="image/png" sizes="16x16" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MyLibrary App</title>
+  </head>
+  <body>
+   
+      <div class="header">
+        <h1>
+          <img src="images/icon.png" alt="icon" />My<span id="li">Libra</span
+          ><span>ry</span>
+        </h1>
+      </div>
+    
+  
+    <main>
+      <div class="container">
+        <form>
+          <label for="title">Title</label>
+          <input type="text" class="book" id="title" />
+
+          <label for="author">Author</label>
+          <input type="text" class="author" id="author" />
+
+          <label for="pages">Pages</label>
+          <input type="text" class="pages" id="pages" />
+
+          <label for="status">Status</label>
+          <select name="status" id="status" class="status">
+            <option value="Read">Read</option>
+            <option value="Not Read">Not Read</option>
+          </select>
+          <br />
+          <br />
+          <input type="submit" class="submit" value="Add Book" />
+        </form>
+      </div>
+
+      <div class="list">
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Status</th>
+          </tr>
+          <tbody id="book-list"></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
