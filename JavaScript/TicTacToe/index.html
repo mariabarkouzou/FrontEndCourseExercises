@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tic Tac Toe">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tic Tac Toe" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="images/icon.png" type="image/png" sizes="16x16" />
     <title>Tic Tac Toe</title>
-</head>
-<body>
-    <table>
-        <tr>
-        <td class="cell" id="0"></td>
-        <td class="cell" id="1"></td>
-        <td class="cell" id="2"></td>
-    </tr>
+  </head>
+  <body>
+    <div class="container">
+    <h1 id="playText">Let's Play!</h1>
+    <button id="restartBtn">Restart</button>
+    
 
-    <tr>
-        <td class="cell" id="3"></td>
-        <td class="cell" id="4"></td>
-        <td class="cell" id="5"></td>
-    </tr>
-
-    <tr>
-        <td class="cell" id="6"></td>
-        <td class="cell" id="7"></td>
-        <td class="cell" id="8"></td>
-    </tr>
-
-    </table>
-<div class="endgame">
-<div class="text"></div>
-</div>
-<button onclick="startGame()">Replay</button>
+    <div id="gameboard">
+      <div class="box" id="0"></div>
+      <div class="box" id="1"></div>
+      <div class="box" id="2"></div>
+      <div class="box" id="3"></div>
+      <div class="box" id="4"></div>
+      <div class="box" id="5"></div>
+      <div class="box" id="6"></div>
+      <div class="box" id="7"></div>
+      <div class="box" id="8"></div>
+    </div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
