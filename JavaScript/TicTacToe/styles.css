@@ -1,0 +1,64 @@
+:root {
+  --purple: #3e0249;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--purple);
+  background-color: rgb(149, 198, 243);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 54px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 40px;
+  align-items:center;
+  justify-content: center;
+  
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  color: var(--purple);
+  font-size: 150px;
+}
+
+#gameboard {
+  width:600px;
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 10px;
+}
+
+
+button {
+  padding: 10px 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--purple);
+  border-color: var(--purple);
+  font-size: 20px;
+  transition: 200ms transform;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
