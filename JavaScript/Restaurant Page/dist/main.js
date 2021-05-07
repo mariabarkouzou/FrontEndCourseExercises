@@ -14,11 +14,10 @@
           const n = document.createElement("img");
           return (
             (n.src = "images/home.png"),
-            (n.alt = "Chef"),
+            (n.alt = "Spices"),
             t.appendChild(e("Spain's most famous place!")),
             t.appendChild(e("With you since 1982")),
             t.appendChild(n),
-            t.appendChild(e("Order online or visit us!")),
             t
           );
         })()
@@ -126,7 +125,7 @@
                         const a = document.createElement("img");
                         return (
                           (a.src = "images/restaurant.png"),
-                          (a.alt = "Para Todos restaurant location"),
+                          (a.alt = "Para Todos restaurant"),
                           e.appendChild(t),
                           e.appendChild(n),
                           e.appendChild(a),

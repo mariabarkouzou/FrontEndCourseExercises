@@ -9,7 +9,7 @@ function createHome() {
     home.appendChild(createParagraph("Spain's most famous place!"));
     home.appendChild(createParagraph("With you since 1982"));
     home.appendChild(homeImage);
-    home.appendChild(createParagraph("Order online or visit us!"));
+  
   
     return home;
   }

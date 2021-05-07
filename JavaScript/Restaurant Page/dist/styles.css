@@ -2,9 +2,9 @@
     --font-color: #eee;
     --font-color-dark: #aaa;
     --border-color: #222;
-    --background-light: rgba(0, 0, 0, 0.6);
+    --background-light: rgb(18 18 17 / 60%);
     --background-light-hover: rgba(99, 99, 99, 0.4);
-    --background-dark: rgba(0, 0, 0, 0.9);
+    --background-dark: rgb(6 30 6 / 90%);
   }
   
   /* General */
@@ -89,12 +89,12 @@
   .restaurant-name {
     margin-bottom: 1rem;
     font-family: "Shadows Into Light", cursive;
-    font-size: 10rem;
+    font-size: 6rem;
   }
   
   .button-nav {
     padding: 2rem;
-    font-size: 5rem;
+    font-size: 3rem;
     background-color: transparent;
     border-bottom: 2px solid transparent;
     transition: transform 0.3s;
@@ -114,7 +114,7 @@
     max-width: 700px;
     padding: 4rem;
     margin: 6rem auto;
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: var(--background-light);
     border: 1px solid var(--border-color);
   }
@@ -174,7 +174,7 @@
   }
   
   .menu-item p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   
@@ -211,10 +211,6 @@
     border-top: 1px solid var(--border-color);
   }
   
-  .fab {
-    margin-left: 1rem;
-    font-size: 2rem;
-  }
   
   /* Scrollbar */
   
