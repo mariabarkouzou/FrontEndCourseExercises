@@ -1,6 +1,6 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
-import loadContact from "./contact";
+import loadAbout from "./about";
 
 function createHeader() {
   const header = document.createElement("header");
@@ -37,18 +37,18 @@ function createNav() {
     loadMenu();
   });
 
-  const contactButton = document.createElement("button");
-  contactButton.classList.add("button-nav");
-  contactButton.textContent = "Contact";
-  contactButton.addEventListener("click", (e) => {
+  const aboutButton = document.createElement("button");
+  aboutButton.classList.add("button-nav");
+  aboutButton.textContent = "Contact";
+  aboutButton.addEventListener("click", (e) => {
     if (e.target.classList.contains("active")) return;
-    setActiveButton(contactButton);
-    loadContact();
+    setActiveButton(aboutButton);
+    loadAbout();
   });
 
   nav.appendChild(homeButton);
   nav.appendChild(menuButton);
-  nav.appendChild(contactButton);
+  nav.appendChild(aboutButton);
 
   return nav;
 }

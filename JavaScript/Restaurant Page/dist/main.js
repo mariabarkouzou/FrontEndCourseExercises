@@ -106,7 +106,7 @@
           const i = document.createElement("button");
           return (
             i.classList.add("button-nav"),
-            (i.textContent = "Contact"),
+            (i.textContent = "About"),
             i.addEventListener("click", (e) => {
               e.target.classList.contains("active") ||
                 (o(i),
@@ -116,18 +116,16 @@
                     e.appendChild(
                       (function () {
                         const e = document.createElement("div");
-                        e.classList.add("contact");
+                        e.classList.add("about");
                         const t = document.createElement("p");
-                        t.textContent = "Phone: 111 111 111 111";
-                        const n = document.createElement("p");
-                        n.textContent =
-                          "Address: Universal Laws 88, Madrid, Spain";
+                        t.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,  molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium  optio, eaque rerum! Provident similique accusantium nemo autem.";
+          
                         const a = document.createElement("img");
                         return (
                           (a.src = "images/restaurant.png"),
                           (a.alt = "Para Todos restaurant"),
                           e.appendChild(t),
-                          e.appendChild(n),
+                      
                           e.appendChild(a),
                           e
                         );
