@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://restaurant-page/./src/index.js"],"names":["console","log"],"mappings":"AAAAA,QAAQC,IAAI","file":"main.js","sourcesContent":["console.log(\"Hello World!\")"],"sourceRoot":""}
