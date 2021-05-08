@@ -9,8 +9,8 @@ function createAbout() {
     restaurantLocation.src = "images/restaurant.png";
     restaurantLocation.alt = "Para Todos restaurant location";
   
-    contact.appendChild(info);
-    contact.appendChild(restaurantLocation);
+    about.appendChild(info);
+    about.appendChild(restaurantLocation);
   
     return about;
   }
