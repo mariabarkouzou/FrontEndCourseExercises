@@ -1,0 +1,261 @@
+:root {
+    --font-color: #eee;
+    --font-color-dark: #aaa;
+    --border-color: #222;
+    --background-light: rgb(18 18 17 / 60%);
+    --background-light-hover: rgba(99, 99, 99, 0.4);
+    --background-dark: rgb(6 30 6 / 90%);
+  }
+  
+  /* General */
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    line-height: 1.6;
+  }
+  
+  body {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 2.5rem;
+    color: var(--font-color);
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header {
+    font-size: 2rem;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    line-height: 1.2;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--font-color);
+  }
+  
+  a:hover {
+    color: var(--font-color-dark);
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+  }
+  
+  /* Content */
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  /* Header */
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: var(--background-dark);
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .restaurant-name {
+    margin-bottom: 1rem;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 6rem;
+  }
+  
+  .button-nav {
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.3s;
+  }
+  
+  .button-nav.active {
+    border-bottom: 2px solid var(--font-color);
+  }
+  
+  .button-nav:hover {
+    transform: translateY(-10%);
+  }
+  
+  /* Main */
+  
+  .main {
+    max-width: 700px;
+    padding: 4rem;
+    margin: 6rem auto;
+    font-size: 2rem;
+    background-color: var(--background-light);
+    border: 1px solid var(--border-color);
+  }
+  
+  /* Home page */
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.5s;
+  }
+  
+  .home p {
+    padding: 1rem;
+  }
+  
+  .home img {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: 90%;
+  }
+  
+  /* Menu page */
+  
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    animation: fadeIn 1.5s;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 4rem;
+    cursor: pointer;
+    background-color: var(--background-light);
+    transition: background-color 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: var(--background-light-hover);
+  }
+  
+  .menu-item img {
+    width: 60%;
+  }
+  
+  .menu-item h2 {
+    padding: 2rem;
+  }
+  
+  .menu-item p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Contact page */
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1.5s;
+  }
+  
+  .contact p {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .contact img {
+    padding: 1rem;
+    opacity: 90%;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--background-light);
+    border-top: 1px solid var(--border-color);
+  }
+  
+  
+  /* Scrollbar */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #222;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+  }
+  
+  /* Animations */
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 650px) {
+    .menu {
+      grid-template-columns: 1fr;
+    }
+  
+    .menu img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 50%;
+    }
+  }
