@@ -14,9 +14,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 0 0;
+  margin: 100px auto;
   padding: 20px 10px;
-  width: 100%;
+  width: 95%;
   height: auto;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.4);
