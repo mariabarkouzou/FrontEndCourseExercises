@@ -14,9 +14,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0 0;
+  margin: 100px 0 0;
   padding: 20px 10px;
-  width:100%;
+  width: 100%;
   height: auto;
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.4);
@@ -34,7 +34,7 @@ body {
 
 form {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
   align-items: center;
@@ -71,10 +71,28 @@ form input {
   height: 30px;
 }
 
+h2 {
+  padding: 10px;
+}
 .table {
   overflow-x: auto;
 }
 
+#supermarket,
+#my-project {
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid blueviolet;
+  padding: 5px;
+}
+
+.project-btns {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
 #tasks {
   display: flex;
   flex-direction: column;
@@ -111,4 +129,3 @@ td {
   color: black;
   border: 1px dotted rgb(221, 12, 169);
 }
-

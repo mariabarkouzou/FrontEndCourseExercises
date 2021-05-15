@@ -13,7 +13,6 @@ Todo.prototype.addToPage = function () {
   const el = document.createElement("tr");
   const table = document.getElementById("tasks");
   el.innerHTML = `
-  <td>${this.project}</td>
           <td>${this.title}</td>
           <td>${this.description}</td>
           <td>${this.dueDate}</td>
@@ -41,7 +40,6 @@ function addBtn() {
 
 
     const newTodoCreated = new Todo({
-      project: `${project}`,
       title: `${title}`,
       description: `${description}`,
       dueDate: `${dueDate}`,
