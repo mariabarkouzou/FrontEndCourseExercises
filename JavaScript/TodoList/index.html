@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="ToDo List" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="images/icon.png " type="image/png" />
     <title>ToDo</title>
   </head>
@@ -15,8 +15,13 @@
         <h1>My ToDo List</h1>
 
         <form>
+          <label for="title">Project</label>
+          <select name="project" id="project">
+            <option type="text" value="My Project">My Project</option>
+            <option type="text" value="Supermarket">Supermarket</option>
+          </select>
           <label for="title">Todo</label>
-          <input type="text" id="title" name="input" autofocus />
+          <input type="text" id="title" name="input" />
 
           <label for="description">Description</label>
           <input type="text" id="description" name="description" />
@@ -33,11 +38,9 @@
           <button type="submit" id="submit-btn">Add New Todo List</button>
         </form>
 
-        <div class="todo-stats">
-          <div class="total-tasks">Total Tasks: <span>0</span></div>
-          <div class="completed-tasks">Completed Tasks: <span>0</span></div>
-          <div class="remaining-tasks">Remaining Tasks: <span>0</span></div>
-        </div>
+        <button id="gym">My Project</button>
+        <button id="supermarket">Supermarket</button>
+
       </div>
       <div class="table">
         <table id="tasks"></table>

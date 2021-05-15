@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-image: url(images/body.jpg);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0;
+  padding: 20px 10px;
+  width:100%;
+  height: auto;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-wrap:wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+form input {
+  height: 30px;
+  width: 400px;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: rgb(58, 5, 46);
+  text-align: center;
+}
+
+#submit-btn {
+  font-size: 18px;
+  font-weight: bold;
+  width: 150px;
+  height: 70px;
+  border-radius: 50%;
+  color: beige;
+  margin-top: 30px;
+  border: 2px solid crimson;
+  background-color: crimson;
+  cursor: pointer;
+}
+
+#priority,
+#dueDate {
+  height: 30px;
+}
+
+.table {
+  overflow-x: auto;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.edit {
+  background-image: url(images/edit.svg);
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: 1px solid #efefef;
+}
+
+.delete {
+  height: 33px;
+  width: 33px;
+  font-size: 30px;
+  background-color: red;
+  border: 1px solid red;
+  color: #efefef;
+  cursor: pointer;
+}
+
+td {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  background-color: #efefef;
+  color: black;
+  border: 1px dotted rgb(221, 12, 169);
+}
+
