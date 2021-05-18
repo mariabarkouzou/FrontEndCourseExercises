@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+.header {
+  padding: 2rem;
+  background-color: rgb(64, 67, 68);
+  color: rgb(140, 176, 223);
+  font-size: 1.5rem;
+}
+
+.name {
+  text-align: center;
+}
+
+.name i {
+  color: white;
+  margin-right: 1rem;
+}
+
+button,
+input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Main */
+
+.main {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.form {
+  padding: 1rem;
+  text-align: center;
+}
+
+.input {
+  margin-right: 0.5rem;
+  background-color: white;
+  color: darkslategray;
+  border: 2px solid transparent;
+}
+
+.btn {
+  background-color: rgb(64, 67, 68);
+  color: white;
+  transition: border 0.2s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.btn:hover {
+  border: 2px solid white;
+}
+
+.btn:active {
+  color: #999;
+}
+
+.search-result {
+  display: none;
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 4rem auto;
+  background-color: rgb(64, 67, 68);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-result.active {
+  display: block;
+}
+
+.search-result * {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.search-result h3 {
+  border-radius: 5px;
+  color: white;
+  font-size: 4rem;
+}
+
+.search-result p:nth-child(2) {
+  font-size: 3.6rem;
+}
+
+.search-result p {
+  font-size: 2rem;
+}
