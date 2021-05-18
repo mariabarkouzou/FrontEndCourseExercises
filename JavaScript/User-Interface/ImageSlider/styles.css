@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	padding: 1em;
+}
+
+.carousel {
+	max-width: 1000px;
+	position: relative;
+}
+
+.carousel-item,
+.carousel-item-hidden {
+	display: none;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.carousel-item-visible {
+	display: block;
+	animation: fadeVisibility 1.3s;
+}
+
+.carousel-actions {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+button {
+	background-color: grey;
+	color: white;
+	border-radius: 25px;
+	border: 0;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	font-weight: 900;
+	font-size: 2rem;
+	line-height: 2rem;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+button:hover,
+button:focus {
+	background-color: rgb(29, 194, 186);
+	color: black;
+}
+
+#carousel-button-prev {
+	margin-left: 0.5em;
+}
+
+#carousel-button-next {
+	margin-right: 0.5em;
+}
+
+.carousel-nav-circles {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	position: absolute;
+	bottom: 2%;
+}
+
+.carousel-nav-btn {
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	margin: 0 4px;
+}
+
+.carousel-nav-btn:hover {
+	background-color: hotpink;
+}
+
+.current-slide-position {
+    background-color: rgb(29, 194, 186);
+}
+
+@keyframes fadeVisibility {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
