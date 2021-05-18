@@ -1,16 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DropDown Menu">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DropDown Menu" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <title>DropDown Menu</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="#" class="a_parent">
+              <div class="wrap">
+                <span class="icon">
+                  <i class="fas fa-home" aria-hidden="true"></i>
+                </span>
+                <span class="text">Home</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="a_parent">
+              <div class="wrap">
+                <span class="icon">
+                  <i class="fas fa-volleyball-ball" aria-hidden="true"></i>
+                </span>
+                <span class="text">Sports</span>
+              </div>
+            </a>
+            <div class="dd_menu">
+              <ul>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="fas fa-running" aria-hidden="true"></i>
+                      </span>
+                      <span class="text"> Running </span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="fas fa-biking" aria-hidden="true"></i>
+                      </span>
+                      <span class="text">Biking</span>
+                    </div>
+                  </a>
+                  <div class="dd_submenu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-running" aria-hidden="true"></i>
+                            </span>
+                            <span class="text"> Running </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-biking" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Biking</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="far fa-futbol" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Football</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-swimmer" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Swimmer</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="far fa-futbol" aria-hidden="true"></i>
+                      </span>
+                      <span class="text">Football</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="fas fa-swimmer" aria-hidden="true"></i>
+                      </span>
+                      <span class="text">Swimmer</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="a_parent">
+              <div class="wrap">
+                <span class="icon">
+                  <i class="fas fa-utensils" aria-hidden="true"></i>
+                </span>
+                <span class="text">Food</span>
+              </div>
+            </a>
+            <div class="dd_menu">
+              <ul>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="fas fa-running" aria-hidden="true"></i>
+                      </span>
+                      <span class="text"> Running </span>
+                    </div>
+                  </a>
+                  <div class="dd_submenu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-running" aria-hidden="true"></i>
+                            </span>
+                            <span class="text"> Running </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-biking" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Biking</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="far fa-futbol" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Football</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-swimmer" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Swimmer</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="fas fa-biking" aria-hidden="true"></i>
+                      </span>
+                      <span class="text">Biking</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="far fa-futbol" aria-hidden="true"></i>
+                      </span>
+                      <span class="text">Football</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="dd_menu_a">
+                    <div class="wrap">
+                      <span class="icon">
+                        <i class="fas fa-swimmer" aria-hidden="true"></i>
+                      </span>
+                      <span class="text">Swimmer</span>
+                    </div>
+                  </a>
+                  <div class="dd_submenu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-running" aria-hidden="true"></i>
+                            </span>
+                            <span class="text"> Running </span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-biking" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Biking</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="far fa-futbol" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Football</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="wrap">
+                            <span class="icon">
+                              <i class="fas fa-swimmer" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Swimmer</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="a_parent">
+              <div class="wrap">
+                <span class="icon">
+                  <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                </span>
+                <span class="text">Items</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="a_parent">
+              <div class="wrap">
+                <span class="icon">
+                  <i class="fas fa-cog" aria-hidden="true"></i>
+                </span>
+                <span class="text">Settings</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
