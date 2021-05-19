@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather App" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/icon.png" />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="name"><i class="fas fa-cloud-sun"></i>Weather App</h1>
+    </header>
+    <main class="main">
+      <form class="form" id="searchForm" novalidate>
+        <input
+          class="input"
+          id="searchInput"
+          type="text"
+          placeholder="Enter city name"
+        />
+        <button class="btn btn-submit" id="searchBtn" type="submit">
+          Search
+        </button>
+      </form>
+      <div class="search-result" id="searchResult">
+        <h3 id="cityName"></h3>
+        <p id="temperature"></p>
+        <p id="feelsLike"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
