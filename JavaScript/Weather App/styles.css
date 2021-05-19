@@ -55,7 +55,7 @@ button {
 .input {
   margin-right: 0.5rem;
   background-color: white;
-  color: darkslategray;
+  color: rgb(64, 67, 68);
   border: 2px solid transparent;
 }
 
@@ -76,7 +76,7 @@ button {
 
 .search-result {
   display: none;
-  max-width: 300px;
+  max-width: 500px;
   padding: 2rem;
   border-radius: 5px;
   margin: 4rem auto;
@@ -96,7 +96,7 @@ button {
 
 .search-result h3 {
   border-radius: 5px;
-  color: white;
+  color: cornflowerblue;
   font-size: 4rem;
 }
 
