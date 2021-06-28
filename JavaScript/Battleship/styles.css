@@ -15,7 +15,7 @@ body {
   height: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: blue;
+  background-color:darksalmon;
 }
 
 .grid div {
@@ -183,4 +183,12 @@ body {
 
 .carrier {
   background-color: green;
+}
+
+.boom {
+  background-color: red;
+}
+
+.miss{
+  background-color: black;
 }
