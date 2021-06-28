@@ -131,4 +131,50 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   rotateBtn.addEventListener("click", rotateShip);
+
+  //Move around users Ships
+
+  ships.forEach(ship => ship.addEventListener("dragstart" , dragStart))
+  userSquares.forEach(square => square.addEventListener("dragstart" , dragStart))
+  userSquares.forEach(square => square.addEventListener("dragover" , dragOver))
+  userSquares.forEach(square => square.addEventListener("dragenter" , dragEnter))
+  userSquares.forEach(square => square.addEventListener("dragleave" , dragLeave))
+  userSquares.forEach(square => square.addEventListener("drop" , dragDrop))
+  userSquares.forEach(square => square.addEventListener("dragend" , dragEnd))
+
+let selectedShipNameIndex 
+
+ships.forEach(ship => ship.addEventListener("mousedown" , (e)=>{
+  selectedShipNameIndex = e.target.id
+}))
+
+
+function dragStart(){
+draggedShip = this
+draggedShipLength  = draggedShip.length
+
+}
+
+function dragOver(){
+  
+}
+
+function dragEnter(){
+  
+}
+
+function dragLeave(){
+  
+}
+
+function dragDrop(){
+  
+}
+
+function dragEnd(){
+  
+}
+
+
+
 });
