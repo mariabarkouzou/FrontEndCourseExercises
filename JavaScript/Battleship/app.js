@@ -76,11 +76,26 @@ function generateShip(ship){
 
   if(randomDirection === 0) direction = 1
   if(randomDirection === 1) direction = 10
-  let randomStart = Math.floor(Math.random() * computerSquares.length - (ship.directions[0].length * direction))
+  let randomStart = Math.abs(Math.floor(Math.random() * computerSquares.length - (ship.directions[0].length * direction)))
 
-const isTaken = current.some(index => computerSquares)
+const isTaken = current.some(index => computerSquares[randomStart + index].classList.contains("taken"))
+const isAtRightEdge = current.some(index =>(randomStart + index) % width === width - 1)
+const isAtLeftEdge = current.some(index => (randomStart + index) % width ===0)
 
+if (!isTaken && !isAtRightEdge && !isAtLeftEdge) current.forEach(index => computerSquares[randomStart + index].classList.add("taken" , ship.name))
+else generateShip(ship)
 }
+
+generateShip(shipArray[0])
+generateShip(shipArray[1])
+generateShip(shipArray[2])
+generateShip(shipArray[3])
+generateShip(shipArray[4])
+
+//Rotate The Ships
+
+
+
 
 
 });
