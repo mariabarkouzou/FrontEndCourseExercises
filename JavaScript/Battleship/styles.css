@@ -81,6 +81,15 @@ body {
   background-color: orange;
   margin: 10px;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.destroyer-container-vertical {
+  width: 40px;
+  height: 80px;
+  background-color: orange;
+  margin: 10px;
+  display: flex;
 }
 
 .ship div {
@@ -96,12 +105,30 @@ body {
   display: flex;
 }
 
+.submarine-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: pink;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .cruiser-container {
   width: 120px;
   height: 40px;
   background-color: purple;
   margin: 10px;
   display: flex;
+}
+
+.cruiser-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: purple;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .battleship-container {
@@ -112,6 +139,15 @@ body {
   display: flex;
 }
 
+.battleship-container-vertical {
+  width: 40px;
+  height: 160px;
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .carrier-container {
   width: 200px;
   height: 40px;
@@ -120,23 +156,31 @@ body {
   display: flex;
 }
 
+.carrier-container-vertical {
+  width: 40px;
+  height: 200px;
+  background-color: green;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.destroyer{
+.destroyer {
   background-color: orange;
 }
 
-.submarine{
+.submarine {
   background-color: pink;
 }
 
-.cruiser{
+.cruiser {
   background-color: purple;
 }
 
-.battleship{
+.battleship {
   background-color: aqua;
 }
 
-.carrier{
+.carrier {
   background-color: green;
 }
