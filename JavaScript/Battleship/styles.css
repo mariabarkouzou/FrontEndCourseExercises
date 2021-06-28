@@ -28,7 +28,7 @@ body {
   height: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  background-color:cadetblue;
 }
 
 #start {
@@ -71,7 +71,7 @@ body {
 .grid-display {
   width: 400px;
   height: 400px;
-  background-color: yellow;
+  background-color:crimson;
   margin: 0 auto;
 }
 
