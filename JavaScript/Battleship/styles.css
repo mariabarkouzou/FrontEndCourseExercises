@@ -1,0 +1,194 @@
+body {
+  background-color: rgb(17, 17, 17);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.grid-user {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:darksalmon;
+}
+
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+
+.grid-computer {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:cadetblue;
+}
+
+#start {
+  padding: 10px;
+  width: 80px;
+  font-size: 25px;
+  background-color: chartreuse;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid chartreuse;
+  border-radius: 10px;
+}
+
+#rotate {
+  padding: 10px;
+  width: 250px;
+  font-size: 25px;
+  background-color: chartreuse;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid chartreuse;
+  border-radius: 10px;
+}
+
+#whose-go {
+  color: chartreuse;
+  font-size: 35px;
+}
+
+.hidden-info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.grid-display {
+  width: 400px;
+  height: 400px;
+  background-color:crimson;
+  margin: 0 auto;
+}
+
+.destroyer-container {
+  width: 80px;
+  height: 40px;
+  background-color: orange;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.destroyer-container-vertical {
+  width: 40px;
+  height: 80px;
+  background-color: orange;
+  margin: 10px;
+  display: flex;
+}
+
+.ship div {
+  width: 40px;
+  height: 40px;
+}
+
+.submarine-container {
+  width: 120px;
+  height: 40px;
+  background-color: pink;
+  margin: 10px;
+  display: flex;
+}
+
+.submarine-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: pink;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cruiser-container {
+  width: 120px;
+  height: 40px;
+  background-color: purple;
+  margin: 10px;
+  display: flex;
+}
+
+.cruiser-container-vertical {
+  width: 40px;
+  height: 120px;
+  background-color: purple;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.battleship-container {
+  width: 160px;
+  height: 40px;
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+}
+
+.battleship-container-vertical {
+  width: 40px;
+  height: 160px;
+  background-color: aqua;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carrier-container {
+  width: 200px;
+  height: 40px;
+  background-color: green;
+  margin: 10px;
+  display: flex;
+}
+
+.carrier-container-vertical {
+  width: 40px;
+  height: 200px;
+  background-color: green;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.destroyer {
+  background-color: orange;
+}
+
+.submarine {
+  background-color: pink;
+}
+
+.cruiser {
+  background-color: purple;
+}
+
+.battleship {
+  background-color: aqua;
+}
+
+.carrier {
+  background-color: green;
+}
+
+.boom {
+  background-color: red;
+}
+
+.miss{
+  background-color: black;
+}
