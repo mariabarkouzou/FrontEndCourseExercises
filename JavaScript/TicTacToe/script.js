@@ -59,7 +59,7 @@ const playerHasWon = () => {
       return true;
     }
   }
-  if (spaces[4 === currentPlayer]) {
+  if (spaces[4] === currentPlayer]) {
     if (spaces[1] === currentPlayer && spaces[7] === currentPlayer) {
       return true;
     }
